@@ -1,6 +1,6 @@
 .hero {
-	padding-top: vmin(119);
 	@media screen and (max-width: 1024px) {
+		padding-top: vmin(119);
 		min-height: vmin(704);
 	}
 	&__title {
