@@ -9,7 +9,7 @@ function Hero() {
           <h1 className='hero__title'>МЫ ПОМОЖЕМ <span className='red'>ТЕБЕ</span> ПОСТРОИТЬ КАРЬЕРУ В IT</h1>
           <div className='hero__row row'>
             <img src={symbol} alt='' />
-            <blockquote className='hero__blockquote'>"Успеха только тот, кто прилагает больше всего усилий"</blockquote>
+            <blockquote className='hero__blockquote'>Успеха достигает только тот, кто прилагает больше всего усилий</blockquote>
           </div>
           <img className='hero__bgImage' src={heroImage} alt='' />
         </div>
