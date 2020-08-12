@@ -1,8 +1,19 @@
 $black: #111;
 $white: #fff;
+$red: #ff564f;
+
+.red {
+	color: $red;
+}
+.white {
+	color: $white;
+}
+.black {
+	color: $black;
+}
 
 // fonts
 
 $robotoCondensed: "Roboto Condensed", sans-serif;
-$dmSans: "DM Sans", sans-serif;
-$inknut: "Inknut Antiqua", serif;
+$notoSans: "Noto Sans TC", sans-serif;
+$philosoph: "Philosopher", sans-serif;

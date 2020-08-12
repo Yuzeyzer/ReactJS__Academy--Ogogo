@@ -1,0 +1,29 @@
+.hero {
+	padding-top: vmin(119);
+	@media screen and (max-width: 1024px) {
+		min-height: vmin(704);
+	}
+	&__title {
+		@media screen and (max-width: 1024px) {
+			max-width: 100%;
+			font-size: vmin(40);
+			line-height: vmin(48);
+		}
+	}
+	&__blockquote {
+		@media screen and (max-width: 1024px) {
+			margin-left: vmin(44);
+			max-width: vmin(200);
+			font-size: vmin(16);
+			line-height: vmin(32);
+		}
+	}
+	&__bgImage {
+		@media screen and (max-width: 1024px) {
+			top: auto;
+			left: vmin(-35);
+			bottom: vmin(-400);
+			max-width: vmin(397);
+		}
+	}
+}
