@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 function Hero() {
-	return (
-		<div>
-			Hero
-		</div>
-	)
+  return (
+    <section className='hero'>
+      <div className='container'>Hero</div>
+    </section>
+  );
 }
 
-export default Hero
+export default Hero;

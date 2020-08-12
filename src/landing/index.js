@@ -1,11 +1,16 @@
 import React from 'react';
-import Sections from "./sections";
+
+import { Header } from './components';
+import Sections from './sections';
 import './scss/index.scss';
 
 function LandingPage() {
-	return (
-		<Sections />
-	)
+  return (
+    <React.Fragment>
+      <Header />
+      <Sections />
+    </React.Fragment>
+  );
 }
 
-export default LandingPage
+export default LandingPage;

@@ -1,0 +1,11 @@
+.nav {
+	&__items {
+		margin-left: vw(63);
+	}
+	&__links {
+		color: $white;
+		font-family: $dmSans;
+		font-weight: 400;
+		font-size: vw(16);
+	}
+}
