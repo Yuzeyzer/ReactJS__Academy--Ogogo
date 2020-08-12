@@ -1,0 +1,13 @@
+@import './logo';
+@import './nav';
+
+.header {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	padding: vw(22) 0;
+	&__row {
+		justify-content: space-between;
+	}
+}

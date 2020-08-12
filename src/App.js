@@ -1,12 +1,10 @@
 import React from 'react';
-
+import LandingPage from './landing'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-       <h1>Ogogo Academy - Start</h1>
-      </header>
+      <LandingPage />
     </div>
   );
 }
