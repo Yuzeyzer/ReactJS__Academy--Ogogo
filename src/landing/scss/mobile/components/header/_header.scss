@@ -1,0 +1,8 @@
+@import "./logo";
+@import "./nav";
+
+.header {
+	@media screen and (max-width: 1024px) {
+		padding: vmin(24) 0;
+	}
+}
