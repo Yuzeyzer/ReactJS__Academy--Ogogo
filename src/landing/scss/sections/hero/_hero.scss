@@ -1,12 +1,9 @@
 .hero {
-	overflow-x: hidden;
+	position: relative;
+	z-index: 1;
 	background-color: $black;
 	min-height: vw(704);
 	padding-top: vw(170);
-	&__content {
-		position: relative;
-		z-index: 1;
-	}
 	&__title {
 		max-width: vw(767);
 		font-family: $philosoph;
@@ -29,8 +26,8 @@
 	}
 	&__bgImage {
 		position: absolute;
-		right: 0;
-		top: vw(15);
+		right: vw(135);
+		top: vw(190);
 		z-index: -1;
 	}
 }
