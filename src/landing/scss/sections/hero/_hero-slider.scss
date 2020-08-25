@@ -1,0 +1,16 @@
+.slider {
+	&__item {
+		max-width: 100%;
+		max-height: vw(500);
+		border: none;
+		outline: none;
+		img {
+			max-width: 100%;
+		}
+	}
+	.slick-slide,
+	.slick-slide.slick-active {
+		border: none;
+		outline: none;
+	}
+}
