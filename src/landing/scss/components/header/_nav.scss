@@ -15,7 +15,7 @@
 		&.active {
 			position: relative;
 			&::before {
-				content: '';
+				content: "";
 				position: absolute;
 				left: 0;
 				bottom: 0;
@@ -25,6 +25,8 @@
 				background-color: $red;
 				z-index: -1;
 				transition: 0.3s;
+				-webkit-animation: Fading 1s backwards linear;
+				animation: Fading 1s backwards linear;
 			}
 			&.active:hover {
 				&::before {
@@ -32,5 +34,25 @@
 				}
 			}
 		}
+	}
+}
+
+
+@-webkit-keyframes Fading {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+
+@keyframes Fading {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
 	}
 }
