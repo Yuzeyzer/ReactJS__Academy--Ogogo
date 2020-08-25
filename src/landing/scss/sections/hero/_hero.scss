@@ -1,9 +1,10 @@
+@import './hero-slider';
 .hero {
 	position: relative;
 	z-index: 1;
 	padding: vw(250) vw(85) 0;
 	&::before {
-		content: '';
+		content: "";
 		position: absolute;
 		left: 0;
 		top: 0;
@@ -25,7 +26,7 @@
 		font-size: vw(48);
 		color: $darkBlue;
 		&::before {
-			content: '';
+			content: "";
 			position: absolute;
 			left: -15%;
 			bottom: -20%;
@@ -50,5 +51,17 @@
 	}
 	&__btn {
 		margin-left: vw(35);
+	}
+
+	&__slider {
+		margin-top: vw(-100);
+		max-width: vw(700);
+	}
+	.slider__item {
+		max-width: 100%;
+		max-height: vw(500);
+		img {
+			max-width: 100%;
+		}
 	}
 }
