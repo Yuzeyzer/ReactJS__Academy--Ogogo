@@ -2,15 +2,15 @@
 	&__item {
 		max-width: 100%;
 		max-height: vw(500);
-		border: none !important;
-		outline: none !important;
+		border: none;
+		outline: none;
 		img {
 			max-width: 100%;
 		}
 	}
 	.slick-slide,
 	.slick-slide.slick-active {
-		border: none !important;
-		outline: none !important;
+		border: none;
+		outline: none;
 	}
 }
