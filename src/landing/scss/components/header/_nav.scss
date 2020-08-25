@@ -15,22 +15,51 @@
 		&.active {
 			position: relative;
 			&::before {
-				content: '';
+				content: "";
 				position: absolute;
-				left: 0;
-				bottom: 0;
-				transform: translateX(-50%);
-				width: 100%;
-				height: 100%;
-				background-color: $red;
+				left: 50%;
+				bottom: 50%;
+				transform: translateX(-50%) translateY(-100%);
+				width: vw(15);
+				height: vw(15);
+				background-color: $white;
+				border-radius: 50%;
+				border: vw(2.5) solid $darkBlue;
+				box-sizing: border-box;
 				z-index: -1;
 				transition: 0.3s;
+				-webkit-animation: Fading 0.3s backwards linear;
+				animation: Fading 0.3s backwards linear;
 			}
-			&.active:hover {
+			&:hover {
 				&::before {
-					transform: translate(50%);
+					background-color: $darkBlue;
 				}
 			}
 		}
+	}
+}
+
+@-webkit-keyframes Fading {
+	from {
+		opacity: 0;
+		background-color: $darkBlue;
+		bottom: 0%;
+	}
+	to {
+		opacity: 1;
+		background-color: $white;
+	}
+}
+
+@keyframes Fading {
+	from {
+		opacity: 0;
+		background-color: $darkBlue;
+		bottom: 0%;
+	}
+	to {
+		opacity: 1;
+		background-color: $white;
 	}
 }

@@ -13,7 +13,42 @@
 		border-bottom-right-radius: vw(50);
 		z-index: -1;
 	}
+	&__content {
+		max-width: vw(660);
+	}
 	&__title {
+		position: relative;
+		letter-spacing: vw(6);
+		line-height: vw(60);
+		font-family: $poppins;
+		font-weight: 500;
 		font-size: vw(48);
+		color: $darkBlue;
+		&::before {
+			content: '';
+			position: absolute;
+			left: -15%;
+			bottom: -20%;
+			width: vw(200);
+			height: vw(3);
+			background-color: $lightBlue;
+		}
+	}
+	&__subtitle {
+		margin-top: vw(55);
+		font-family: $segoeUI;
+		font-weight: 600;
+		font-size: vw(24);
+		color: $darkBlue;
+	}
+	&__description {
+		margin: vw(10) 0 vw(25);
+		font-family: $segoeUI;
+		font-size: vw(20);
+		font-weight: 400;
+		color: $gray;
+	}
+	&__btn {
+		margin-left: vw(35);
 	}
 }

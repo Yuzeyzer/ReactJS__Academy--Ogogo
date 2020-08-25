@@ -3,6 +3,7 @@ $white: #fff;
 $red: #ff564f;
 $darkBlue: #000846;
 $lightBlue: #35b9c6;
+$gray: #b2abb2;
 
 .red {
 	color: $red;
@@ -13,11 +14,16 @@ $lightBlue: #35b9c6;
 .black {
 	color: $black;
 }
-
+.gray {
+	color: $gray;
+}
+.light-blue {
+	color: $lightBlue;
+}
 // fonts
 
 $robotoCondensed: "Roboto Condensed", sans-serif;
 $notoSans: "Noto Sans TC", sans-serif;
 $philosoph: "Philosopher", sans-serif;
-$poppins: 'Poppins', sans-serif;
-$segoeUI: 'Segoe UI', sans-serif;
+$poppins: "Poppins", sans-serif;
+$segoeUI: "Segoe UI", sans-serif;
