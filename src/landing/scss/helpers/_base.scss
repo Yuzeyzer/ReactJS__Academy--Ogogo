@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 }
 .container {
-	max-width: vw(1170);
+	padding: 0 vw(120);
 	margin: auto;
 	@media screen and (max-width: 1024px) {
 		max-width: 100%;
@@ -13,6 +13,7 @@
 }
 body {
 	font-family: sans-serif;
+	background-color: $darkBlue;
 }
 li {
 	list-style-type: none;
