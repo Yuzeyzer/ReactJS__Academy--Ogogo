@@ -18,11 +18,11 @@ function Header() {
           <div className='header__auth-btns auth-btns'>
             <button className='auth-btns__log-in'>
               <img src={UserIcon} alt='' />
-              log in
+              Войти
             </button>
             <button className='auth-btns__sign-up'>
               <img src={UserIcon} alt='' />
-              sign up
+              Регистрация
             </button>
           </div>
         </div>

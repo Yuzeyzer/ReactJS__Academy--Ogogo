@@ -12,15 +12,16 @@
 		outline: none;
 		border: none;
 		cursor: pointer;
-		color: $white;
 		img {
 			margin-right: vw(10);
 		}
 	}
 	&__log-in {
-		background-color: $darkBlue;
+		background-color: $white;
+		color: $darkBlue;
 	}
 	&__sign-up {
 		background-color: $lightBlue;
+		color: $white;
 	}
 }

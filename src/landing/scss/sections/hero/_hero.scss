@@ -1,5 +1,19 @@
 .hero {
 	position: relative;
 	z-index: 1;
-	padding-top: vw(170);
+	padding: vw(250) vw(85) 0;
+	&::before {
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: vw(1140);
+		height: vw(900);
+		background-color: #fff;
+		border-bottom-right-radius: vw(50);
+		z-index: -1;
+	}
+	&__title {
+		font-size: vw(48);
+	}
 }
