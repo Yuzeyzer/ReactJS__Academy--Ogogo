@@ -1,6 +1,6 @@
 import React from 'react';
 import HeroContent from './HeroContent';
-import HeroSlider from './Slider';
+import HeroSlider from './HeroSlider';
 
 function Hero() {
   return (
