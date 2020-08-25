@@ -1,5 +1,6 @@
 @import './logo';
 @import './nav';
+@import './auth-btns';
 
 .header {
 	position: absolute;
@@ -10,5 +11,6 @@
 	padding: vw(22) 0;
 	&__row {
 		justify-content: space-between;
+		align-items: center;
 	}
 }

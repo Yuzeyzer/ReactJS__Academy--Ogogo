@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../../assets/jpg/logo.jpg';
+import UserIcon from '../../assets/svg/user-icon.svg';
 import Nav from './nav';
 
 function Header() {
@@ -14,6 +15,16 @@ function Header() {
             </Link>
           </div>
           <Nav />
+          <div className='header__auth-btns auth-btns'>
+            <button className='auth-btns__log-in'>
+              <img src={UserIcon} alt='' />
+              log in
+            </button>
+            <button className='auth-btns__sign-up'>
+              <img src={UserIcon} alt='' />
+              sign up
+            </button>
+          </div>
         </div>
       </div>
     </header>
