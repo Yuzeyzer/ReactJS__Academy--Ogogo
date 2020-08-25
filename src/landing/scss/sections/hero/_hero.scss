@@ -1,33 +1,5 @@
 .hero {
 	position: relative;
 	z-index: 1;
-	background-color: $black;
-	min-height: vw(704);
 	padding-top: vw(170);
-	&__title {
-		max-width: vw(767);
-		font-family: $philosoph;
-		font-size: vw(72);
-		line-height: vw(80);
-		color: $white;
-	}
-	&__row {
-		margin-top: vw(80);
-	}
-	&__blockquote {
-		max-width: vw(370);
-		margin-left: vw(44);
-		font-family: $robotoCondensed;
-		font-weight: 400;
-		font-size: vw(16);
-		line-height: 2;
-		letter-spacing: vw(3);
-		color: $white;
-	}
-	&__bgImage {
-		position: absolute;
-		right: vw(135);
-		top: vw(190);
-		z-index: -1;
-	}
 }
