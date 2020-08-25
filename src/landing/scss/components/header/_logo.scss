@@ -1,8 +1,13 @@
 .logo {
 	&__link {
-		color: $white;
+		max-width: vw(50);
 		font-family: $robotoCondensed;
 		font-weight: bold;
 		font-size: vw(24);
+		color: $white;
+		img {
+			max-width: 100%;
+			border-radius: 50%;
+		}
 	}
 }
