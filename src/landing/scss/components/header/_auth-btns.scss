@@ -2,26 +2,9 @@
 	display: flex;
 	&__log-in,
 	&__sign-up {
-		font-family: $segoeUI;
-		font-weight: 600;
 		margin-left: vw(50);
-		display: flex;
-		align-items: center;
-		padding: vw(14) vw(80);
-		border-radius: vw(50);
-		outline: none;
-		border: none;
-		cursor: pointer;
 		img {
 			margin-right: vw(10);
 		}
-	}
-	&__log-in {
-		background-color: $white;
-		color: $darkBlue;
-	}
-	&__sign-up {
-		background-color: $lightBlue;
-		color: $white;
 	}
 }

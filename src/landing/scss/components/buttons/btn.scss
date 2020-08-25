@@ -1,0 +1,45 @@
+.btn {
+	font-family: $segoeUI;
+	font-size: vw(16);
+	font-weight: 600;
+	display: flex;
+	align-items: center;
+	padding: vw(15) vw(80);
+	border-radius: vw(50);
+	outline: none;
+	border: none;
+	cursor: pointer;
+}
+.btn-white {
+	background-color: $white;
+	border: vw(2) solid $white;
+	color: $darkBlue;
+	transition: 0.3s;
+	&:hover {
+		background-color: $darkBlue;
+		color: $white;
+		border: vw(2) solid $white;
+	}
+}
+.btn-dark-blue {
+	background-color: $darkBlue;
+	border: vw(2) solid $darkBlue;
+	transition: 0.3s;
+	color: $white;
+	&:hover {
+		background-color: $white;
+		color: $darkBlue;
+		border: vw(2) solid $darkBlue;
+	}
+}
+.btn-light-blue {
+	background-color: $lightBlue;
+	border: vw(2) solid $lightBlue;
+	transition: 0.3s;
+	color: $white;
+	&:hover {
+		background-color: $white;
+		color: $lightBlue;
+		border: vw(2) solid $lightBlue;
+	}
+}
