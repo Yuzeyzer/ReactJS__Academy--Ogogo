@@ -8,7 +8,6 @@ function HeroContent() {
         <br />
         ОТ <span className='light-blue'>OGOGO</span> ACADEMY
       </h1>
-      <h5 className='hero__subtitle'>Мы поможем тебе построить успешую IT - карьеру</h5>
       <p className='hero__description'>
         It is a long established fact that a reader will be distracted by the readable content of a
         page when looking at its layout. It is a long established fact that a reader will be
