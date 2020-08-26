@@ -47,25 +47,64 @@ function Courses() {
                   stroke-width='1'
                 />
               </svg>
-              <h5 className='courses__item-title'>UX/UI</h5>
+              <h5 className='courses__item-title'>Back - End</h5>
               <p className='courses__item-text'>Длительность - 3 месяца Формат - 5 раз в неделю</p>
             </div>
           </div>
           <div className='courses__column'>
             <div className='courses__item'>
-              <h5 className='courses__item-title'>UX/UI</h5>
+              <svg
+                xmlns='http://www.w3.org/2000/svg'
+                width='59.732'
+                height='62'
+                viewBox='0 0 59.732 62'>
+                <path
+                  id='Icon_simple-ubisoft'
+                  data-name='Icon simple-ubisoft'
+                  d='M60.389,30.97c-.672-31.756-42.9-43.6-59.172-13.833.728.532,1.708,1.232,2.436,1.736A30.348,30.348,0,0,0,1.132,26.8a30.7,30.7,0,0,0-.475,5.35,29.866,29.866,0,0,0,59.732,0V30.973ZM8.024,36.289a18.368,18.368,0,0,0-.139,4.621l-.728.253A17.135,17.135,0,0,1,5.9,36.235,18.521,18.521,0,0,1,21.661,16.352c9.158-1.343,17.923,4.34,19.966,12.294L40.9,28.9A23.193,23.193,0,0,0,38.91,26.63C27.848,15.569,10.486,20.637,8.022,36.292Zm28.423,5.378A8.148,8.148,0,1,1,29.166,28.9a6.611,6.611,0,0,1,5.068,11.229c.757.532,1.485,1.036,2.211,1.54Zm17,.307A23.986,23.986,0,0,1,30.791,56.733c-18.173-.9-23.466-21.87-11.315-29.431l.532.532a11.892,11.892,0,0,0-2.043,3.053A14.127,14.127,0,0,0,16.4,37.945c.953,14.647,21.48,17.644,28.535,3.136C53.921,21.226,30.062,1.036,8.89,16.465l-.475-.475C13.987,7.254,24.88,3.361,35.27,5.965A26.443,26.443,0,0,1,53.443,41.978Z'
+                  transform='translate(-0.657 0)'
+                  fill='#000745'
+                />
+              </svg>
+              <h5 className='courses__item-title'>3D - Графика</h5>
               <p className='courses__item-text'>Длительность - 3 месяца Формат - 5 раз в неделю</p>
             </div>
           </div>
           <div className='courses__column'>
             <div className='courses__item'>
-              <h5 className='courses__item-title'>UX/UI</h5>
+              <svg
+                xmlns='http://www.w3.org/2000/svg'
+                width='60.641'
+                height='66.964'
+                viewBox='0 0 60.641 66.964'>
+                <path
+                  id='Icon_simple-webpack'
+                  data-name='Icon simple-webpack'
+                  d='M62.275,54.184,35.016,69.536V57.579L52,48.277l10.275,5.907ZM64.14,52.5V20.4l-9.975,5.732V46.764ZM5.364,54.184,32.623,69.536V57.579l-16.984-9.3L5.364,54.184ZM3.5,52.5V20.4l9.975,5.732V46.764L3.5,52.5ZM4.667,18.32,32.623,2.572V14.133l-17.91,9.808-.137.078-9.91-5.7Zm58.306,0L35.016,2.572V14.133l17.91,9.808.137.078,9.91-5.7Zm-30.35,36.54L15.867,45.687V27.512l16.756,9.633V54.859Zm2.393,0,16.756-9.172V27.512L35.016,37.145V54.859ZM17,25.408,33.823,16.2l16.821,9.212L33.823,35.08Z'
+                  transform='translate(-3.5 -2.572)'
+                  fill='#000745'
+                />
+              </svg>
+              <h5 className='courses__item-title'>Front - End</h5>
               <p className='courses__item-text'>Длительность - 3 месяца Формат - 5 раз в неделю</p>
             </div>
           </div>
           <div className='courses__column'>
             <div className='courses__item'>
-              <h5 className='courses__item-title'>UX/UI</h5>
+              <svg
+                xmlns='http://www.w3.org/2000/svg'
+                width='64.345'
+                height='58.75'
+                viewBox='0 0 64.345 58.75'>
+                <path
+                  id='Icon_material-add-a-photo'
+                  data-name='Icon material-add-a-photo'
+                  d='M8.393,9.893V1.5h5.6V9.893h8.393v5.6H13.988v8.393h-5.6V15.488H0v-5.6Zm8.393,16.786V18.286h8.393V9.893H44.762l5.12,5.6H58.75a5.612,5.612,0,0,1,5.6,5.6V54.655a5.612,5.612,0,0,1-5.6,5.6H13.988a5.612,5.612,0,0,1-5.6-5.6V26.679ZM36.369,51.857A13.988,13.988,0,1,0,22.381,37.869,13.993,13.993,0,0,0,36.369,51.857ZM27.417,37.869a8.952,8.952,0,1,0,8.952-8.952A8.943,8.943,0,0,0,27.417,37.869Z'
+                  transform='translate(0 -1.5)'
+                  fill='#000745'
+                />
+              </svg>
+              <h5 className='courses__item-title'>Blogging</h5>
               <p className='courses__item-text'>Длительность - 3 месяца Формат - 5 раз в неделю</p>
             </div>
           </div>
