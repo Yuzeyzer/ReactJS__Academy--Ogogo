@@ -10,7 +10,8 @@
 		top: 0;
 		width: vw(1140);
 		height: vw(900);
-		background-color: #fff;
+		background: $white url('../../../assets/png/bg.png') no-repeat center;
+		background-size: cover;
 		z-index: -1;
 	}
 	&__content {
@@ -19,6 +20,11 @@
 	&__title {
 		position: relative;
 		color: $darkBlue;
+		letter-spacing: vw(6);
+		line-height: vw(60);
+		font-family: $poppins;
+		font-weight: 700;
+		font-size: vw(48);
 		span {
 			letter-spacing: vw(6);
 			line-height: vw(60);

@@ -36,7 +36,7 @@
 	}
 	&__row {
 		margin: 0 vw(-23);
-		padding: vw(50) 0;
+		padding: vw(50) 0 0;
 	}
 	&__column {
 		width: 20%;
@@ -47,11 +47,12 @@
 		padding: vw(60) vw(50) vw(50);
 		min-height: vw(300);
 		text-align: center;
-		box-shadow: 0 vw(10) vw(50) 0 rgba(0, 0, 0, 0.1);
+		box-shadow: 0 vw(5) vw(50) 0 rgba(0, 0, 0, 0.1);
+		border-radius: vw(10);
 	}
 }
 .courses__item {
-	svg{
+	svg {
 		display: block;
 		width: vw(70);
 		height: vw(70);
