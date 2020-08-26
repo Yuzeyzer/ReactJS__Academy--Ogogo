@@ -13,18 +13,23 @@ function HeroSlider() {
     slidesToScroll: 1,
   };
   return (
-    <Slider {...settings} className='hero__slider slider'>
-      <div className='slider__item'>
-        <img src={sliderIMG} alt='a' />
-      </div>
-      <div className='slider__item'>
-        <img src={sliderIMG} alt='s' />
-        <span>s</span>
-      </div>
-      <div className='slider__item'>
-        <img src={sliderIMG} alt='s' />
-      </div>
-    </Slider>
+    <div className='slider__container'>
+      <Slider {...settings} className='hero__slider slider'>
+        <div className='slider__item'>
+          <img src={sliderIMG} alt='a' />
+        </div>
+        <div className='slider__item'>
+          <img src={sliderIMG} alt='s' />
+          <span className='hidden'>s</span>
+        </div>
+        <div className='slider__item'>
+          <img src={sliderIMG} alt='s' />
+        </div>
+      </Slider>
+      <ul className='slider__timeline'>
+        <li className='slider__timeline-item'></li>
+      </ul>
+    </div>
   );
 }
 

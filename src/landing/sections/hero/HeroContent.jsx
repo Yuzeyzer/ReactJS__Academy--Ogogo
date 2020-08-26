@@ -17,10 +17,6 @@ function HeroContent() {
         <button className='btn btn-dark-blue'>Подробнее</button>
         <button className='btn btn-light-blue hero__btn'>Занять место</button>
       </div>
-      <div className="hero__slider-timer slider-timer">
-        <span className='slider-timer__line'></span>
-        <span className='slider-timer__count'>1/3</span>
-      </div>
     </div>
   );
 }
