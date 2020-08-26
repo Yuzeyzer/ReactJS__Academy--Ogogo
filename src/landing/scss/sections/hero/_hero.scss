@@ -1,5 +1,4 @@
 @import './hero-slider';
-@import './hero-animations';
 .hero {
 	position: relative;
 	z-index: 1;
@@ -12,7 +11,6 @@
 		width: vw(1140);
 		height: vw(900);
 		background-color: #fff;
-		border-bottom-right-radius: vw(50);
 		z-index: -1;
 	}
 	&__content {
@@ -20,12 +18,14 @@
 	}
 	&__title {
 		position: relative;
-		letter-spacing: vw(6);
-		line-height: vw(60);
-		font-family: $poppins;
-		font-weight: 500;
-		font-size: vw(48);
 		color: $darkBlue;
+		span {
+			letter-spacing: vw(6);
+			line-height: vw(60);
+			font-family: $poppins;
+			font-weight: 700;
+			font-size: vw(48);
+		}
 		&::before {
 			content: "";
 			position: absolute;
@@ -36,15 +36,8 @@
 			background-color: $lightBlue;
 		}
 	}
-	&__subtitle {
-		margin-top: vw(55);
-		font-family: $segoeUI;
-		font-weight: 600;
-		font-size: vw(24);
-		color: $darkBlue;
-	}
 	&__description {
-		margin: vw(10) 0 vw(25);
+		margin: vw(60) 0 vw(35);
 		font-family: $segoeUI;
 		font-size: vw(20);
 		font-weight: 400;
@@ -60,7 +53,6 @@
 	}
 	.slider__item {
 		max-width: 100%;
-		max-height: vw(500);
 		img {
 			max-width: 100%;
 		}

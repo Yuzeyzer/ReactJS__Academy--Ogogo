@@ -1,7 +1,7 @@
 import React from 'react';
 import Slider from 'react-slick';
 
-import sliderIMG from '../../assets/png/img-1.png';
+import sliderIMG from '../../assets/jpg/bg1.jpg';
 
 function HeroSlider() {
   const settings = {
@@ -13,15 +13,23 @@ function HeroSlider() {
     slidesToScroll: 1,
   };
   return (
-    <Slider {...settings} className='hero__slider slider'>
-      <div className='slider__item'>
-        <img src={sliderIMG} alt='' />
-      </div>
-      <div className='slider__item'>dasdas</div>
-      <div className='slider__item'>
-        <img src={sliderIMG} alt='' />
-      </div>
-    </Slider>
+    <div className='slider__container'>
+      <Slider {...settings} className='hero__slider slider'>
+        <div className='slider__item'>
+          <img src={sliderIMG} alt='a' />
+        </div>
+        <div className='slider__item'>
+          <img src={sliderIMG} alt='s' />
+          <span className='hidden'>s</span>
+        </div>
+        <div className='slider__item'>
+          <img src={sliderIMG} alt='s' />
+        </div>
+      </Slider>
+      <ul className='slider__timeline'>
+        <li className='slider__timeline-item'></li>
+      </ul>
+    </div>
   );
 }
 

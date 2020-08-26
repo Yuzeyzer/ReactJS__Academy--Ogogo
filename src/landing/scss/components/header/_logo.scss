@@ -2,10 +2,13 @@
 	&__link {
 		max-width: vw(50);
 		font-family: $robotoCondensed;
-		font-weight: bold;
+		font-weight: 500;
 		font-size: vw(24);
 		color: $white;
+		align-items: center;
+		color: $lightBlue;
 		img {
+			margin-right: vw(15);
 			max-width: 100%;
 			border-radius: 50%;
 		}
