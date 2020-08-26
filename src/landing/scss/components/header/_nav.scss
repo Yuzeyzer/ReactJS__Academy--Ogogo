@@ -14,28 +14,6 @@
 		z-index: 1;
 		&.active {
 			position: relative;
-			&::before {
-				content: "";
-				position: absolute;
-				left: 50%;
-				bottom: 50%;
-				transform: translateX(-50%) translateY(-100%);
-				width: vw(15);
-				height: vw(15);
-				background-color: $white;
-				border-radius: 50%;
-				border: vw(2.5) solid $darkBlue;
-				box-sizing: border-box;
-				z-index: -1;
-				transition: 0.3s;
-				-webkit-animation: Fading 0.3s backwards linear;
-				animation: Fading 0.3s backwards linear;
-			}
-			&:hover {
-				&::before {
-					background-color: $darkBlue;
-				}
-			}
 		}
 	}
 }

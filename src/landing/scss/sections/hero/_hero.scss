@@ -23,7 +23,7 @@
 		letter-spacing: vw(6);
 		line-height: vw(60);
 		font-family: $poppins;
-		font-weight: 500;
+		font-weight: 700;
 		font-size: vw(48);
 		color: $darkBlue;
 		&::before {
@@ -41,7 +41,7 @@
 		font-family: $segoeUI;
 		font-weight: 600;
 		font-size: vw(24);
-		color: $darkBlue;
+		color: $lightBlue;
 	}
 	&__description {
 		margin: vw(10) 0 vw(25);
@@ -60,7 +60,6 @@
 	}
 	.slider__item {
 		max-width: 100%;
-		max-height: vw(500);
 		img {
 			max-width: 100%;
 		}

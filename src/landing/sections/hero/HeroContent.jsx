@@ -12,7 +12,6 @@ function HeroContent() {
       <p className='hero__description'>
         It is a long established fact that a reader will be distracted by the readable content of a
         page when looking at its layout. It is a long established fact that a reader will be
-        distracted by the readable content of a page when looking at its layout
       </p>
       <div className='hero__btns flex'>
         <button className='btn btn-dark-blue'>Подробнее</button>

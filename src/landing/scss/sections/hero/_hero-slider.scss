@@ -1,16 +1,51 @@
 .slider {
+	max-width: vw(740);
 	&__item {
-		max-width: 100%;
-		max-height: vw(500);
+		max-width: vw(740);
+		height: vw(640);
 		border: none;
 		outline: none;
 		img {
-			max-width: 100%;
+			max-height: 100%;
+			width: 100%;
+			-o-object-fit: cover;
+			object-fit: cover;
 		}
 	}
 	.slick-slide,
 	.slick-slide.slick-active {
 		border: none;
 		outline: none;
+	}
+	.slick-next {
+		position: absolute;
+		left: 0;
+	}
+	.slick-next:before,
+	.slick-prev:before {
+		background: url("../../../assets/svg/arrow.svg") no-repeat center !important;
+		width: vw(44);
+		height: vw(44);
+		color: transparent;
+	}
+	.slick-arrow.slick-prev {
+		position: absolute;
+		left: 106%;
+		top: 0;
+		height: vw(44);
+		width: vw(44);
+		border-radius: 50%;
+		background-color: $lightBlue;
+		transform: rotate(-90deg);
+	}
+	.slick-arrow.slick-next {
+		position: absolute;
+		left: 106%;
+		top: 90%;
+		height: vw(44);
+		width: vw(44);
+		border-radius: 50%;
+		background-color: $lightBlue;
+		transform: rotate(90deg);
 	}
 }
