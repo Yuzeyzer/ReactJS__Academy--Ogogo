@@ -26,9 +26,6 @@ function HeroSlider() {
           <img src={sliderIMG} alt='s' />
         </div>
       </Slider>
-      <ul className='slider__timeline'>
-        <li className='slider__timeline-item'></li>
-      </ul>
     </div>
   );
 }
