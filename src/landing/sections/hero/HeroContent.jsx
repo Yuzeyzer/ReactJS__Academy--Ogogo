@@ -4,7 +4,7 @@ function HeroContent() {
   return (
     <div className='hero__content'>
       <h1 className='hero__title'>
-        <span className='gray'>ОНЛАЙН IT - КУРСЫ </span>
+        <span className='gray'>IT - КУРСЫ </span>
         <br />
         ОТ <span className='light-blue'>OGOGO</span> ACADEMY
       </h1>

@@ -1,7 +1,21 @@
-.logo {
-	&__link {
-		@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
+	.logo {
+		&__link {
+			max-width: vmin(30);
+			font-family: $robotoCondensed;
+			font-weight: 500;
 			font-size: vmin(24);
+			color: $white;
+			align-items: center;
+			color: $lightBlue;
+			img {
+				margin-right: vmin(5);
+				max-width: 100%;
+				border-radius: 50%;
+			}
+		}
+		&__span {
+			font-size: vmin(16);
 		}
 	}
 }
