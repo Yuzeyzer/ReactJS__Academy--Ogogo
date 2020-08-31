@@ -5,7 +5,7 @@ function Footer() {
 		<footer>
 			<div className="container">
 				<div className="footer__row row">
-					
+					Footer
 				</div>
 			</div>
 		</footer>
