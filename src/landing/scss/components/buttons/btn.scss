@@ -9,6 +9,15 @@
 	outline: none;
 	border: none;
 	cursor: pointer;
+	@media screen and (max-width: 1024px) {
+		font-size: vmin(12);
+		font-weight: 600;
+		display: flex;
+		align-items: center;
+		padding: vmin(10) vmin(30);
+		border-radius: vmin(50);
+		text-align: center;
+	}
 }
 .btn-white {
 	background-color: $white;

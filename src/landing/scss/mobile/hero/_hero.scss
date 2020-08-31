@@ -1,29 +1,85 @@
-.hero {
-	@media screen and (max-width: 1024px) {
-		padding-top: vmin(119);
+@media screen and (max-width: 1024px) {
+	.hero {
+		padding-top: vmin(100);
 		min-height: vmin(704);
-	}
-	&__title {
-		@media screen and (max-width: 1024px) {
-			max-width: 100%;
-			font-size: vmin(40);
-			line-height: vmin(48);
+		padding: vmin(100) vmin(30) 0;
+		&::before {
+			width: 100%;
+			height: vmin(900);
 		}
-	}
-	&__blockquote {
-		@media screen and (max-width: 1024px) {
+		.container {
+			flex-direction: column !important;
+			flex-wrap: wrap;
+		}
+		&__content {
+			max-width: 100%;
+		}
+		&__title {
+			font-size: vmin(28);
+			line-height: 1.3;
+			span {
+				letter-spacing: vmin(6);
+				line-height: 1.3;
+				font-size: vmin(28);
+			}
+			&::before {
+				content: "";
+				position: absolute;
+				left: -15%;
+				bottom: -20%;
+				width: vmin(100);
+				height: vmin(3);
+				background-color: $lightBlue;
+			}
+		}
+		&__blockquote {
 			margin-left: vmin(44);
 			max-width: vmin(200);
 			font-size: vmin(16);
 			line-height: vmin(32);
 		}
-	}
-	&__bgImage {
-		@media screen and (max-width: 1024px) {
-			top: auto;
+		&__bgImage {
 			left: vmin(-10);
 			bottom: vmin(-150);
 			max-width: vmin(397);
+		}
+		&__description {
+			margin: vmin(40) 0 vmin(35);
+			font-size: vmin(16);
+		}
+		&__btn {
+			margin-top: vmin(15);
+			margin-left: 0;
+		}
+		&__block-img {
+			position: relative;
+			width: vw(800);
+			height: vw(800);
+		}
+		&__img {
+			position: absolute;
+			right: 0;
+			top: 0;
+			width: vw(800);
+			height: vw(800);
+			img {
+				max-width: 100%;
+				height: 100%;
+			}
+			&::before {
+				content: "";
+				position: absolute;
+				right: 0;
+				top: 0;
+				width: 100%;
+				height: 100%;
+				background-color: $darkBlue;
+				opacity: 0.7;
+				z-index: 11;
+			}
+		}
+		&__btns {
+			flex-direction: column;
 		}
 	}
 }

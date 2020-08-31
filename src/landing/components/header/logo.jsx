@@ -7,7 +7,7 @@ function Logo() {
     <div className='header__logo logo'>
       <Link to='/' className='logo__link flex'>
         <img src={logo} alt='' />
-        Academy
+        <span className='logo__span'>Academy</span>
       </Link>
     </div>
   );

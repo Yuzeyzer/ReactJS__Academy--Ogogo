@@ -10,7 +10,6 @@ function AuthBtns() {
       </button>
       <button className='btn auth-btns__sign-up btn-white'>
         <img src={UserIcon} alt='' />
-        Регистрация
       </button>
     </div>
   );
