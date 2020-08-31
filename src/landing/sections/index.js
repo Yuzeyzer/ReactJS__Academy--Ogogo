@@ -1,12 +1,12 @@
 import React from 'react';
 import Hero from './hero';
-import Courses from './courses'
+import Destinations from './destinations';
 
 function Sections() {
 	return (
 		<main>
 			<Hero />
-			<Courses />
+			<Destinations />
 		</main>
 	)
 }

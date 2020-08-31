@@ -1,18 +1,18 @@
 import React from 'react';
 
-function Courses() {
+function Destinations() {
   return (
-    <section className='courses'>
+    <section className='destinations'>
       <div className='container'>
-        <div className='courses__top'>
-          <h3 className='courses__title'>Наши курсы</h3>
-          <p className='courses__description'>
+        <div className='destinations__top'>
+          <h3 className='destinations__title'>Наши курсы</h3>
+          <p className='destinations__description'>
             Интересные направления которые вы можете захотеть изучить
           </p>
         </div>
-        <div className='courses__row row'>
-          <div className='courses__column'>
-            <div className='courses__item'>
+        <div className='destinations__row row'>
+          <div className='destinations__column'>
+            <div className='destinations__item'>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
                 width='70.48'
@@ -26,12 +26,12 @@ function Courses() {
                   fill='#000745'
                 />
               </svg>
-              <h5 className='courses__item-title'>UX/UI</h5>
-              <p className='courses__item-text'>Длительность - 3 месяца Формат - 5 раз в неделю</p>
+              <h5 className='destinations__item-title'>UX/UI</h5>
+              <p className='destinations__item-text'>Длительность - 3 месяца Формат - 5 раз в неделю</p>
             </div>
           </div>
-          <div className='courses__column'>
-            <div className='courses__item'>
+          <div className='destinations__column'>
+            <div className='destinations__item'>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
                 width='78.5'
@@ -47,12 +47,12 @@ function Courses() {
                   stroke-width='1'
                 />
               </svg>
-              <h5 className='courses__item-title'>Back - End</h5>
-              <p className='courses__item-text'>Длительность - 3 месяца Формат - 5 раз в неделю</p>
+              <h5 className='destinations__item-title'>Back - End</h5>
+              <p className='destinations__item-text'>Длительность - 3 месяца Формат - 5 раз в неделю</p>
             </div>
           </div>
-          <div className='courses__column'>
-            <div className='courses__item'>
+          <div className='destinations__column'>
+            <div className='destinations__item'>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
                 width='59.732'
@@ -66,12 +66,12 @@ function Courses() {
                   fill='#000745'
                 />
               </svg>
-              <h5 className='courses__item-title'>3D - Графика</h5>
-              <p className='courses__item-text'>Длительность - 3 месяца Формат - 5 раз в неделю</p>
+              <h5 className='destinations__item-title'>3D - Графика</h5>
+              <p className='destinations__item-text'>Длительность - 3 месяца Формат - 5 раз в неделю</p>
             </div>
           </div>
-          <div className='courses__column'>
-            <div className='courses__item'>
+          <div className='destinations__column'>
+            <div className='destinations__item'>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
                 width='60.641'
@@ -85,12 +85,12 @@ function Courses() {
                   fill='#000745'
                 />
               </svg>
-              <h5 className='courses__item-title'>Front - End</h5>
-              <p className='courses__item-text'>Длительность - 3 месяца Формат - 5 раз в неделю</p>
+              <h5 className='destinations__item-title'>Front - End</h5>
+              <p className='destinations__item-text'>Длительность - 3 месяца Формат - 5 раз в неделю</p>
             </div>
           </div>
-          <div className='courses__column'>
-            <div className='courses__item'>
+          <div className='destinations__column'>
+            <div className='destinations__item'>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
                 width='64.345'
@@ -104,8 +104,8 @@ function Courses() {
                   fill='#000745'
                 />
               </svg>
-              <h5 className='courses__item-title'>Blogging</h5>
-              <p className='courses__item-text'>Длительность - 3 месяца Формат - 5 раз в неделю</p>
+              <h5 className='destinations__item-title'>Blogging</h5>
+              <p className='destinations__item-text'>Длительность - 3 месяца Формат - 5 раз в неделю</p>
             </div>
           </div>
         </div>
@@ -114,4 +114,4 @@ function Courses() {
   );
 }
 
-export default Courses;
+export default Destinations;
