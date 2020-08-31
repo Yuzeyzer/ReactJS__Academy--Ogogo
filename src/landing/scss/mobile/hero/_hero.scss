@@ -8,8 +8,7 @@
 			height: vmin(900);
 		}
 		.container {
-			flex-direction: column !important;
-			flex-wrap: wrap;
+			flex-direction: column;
 		}
 		&__content {
 			max-width: 100%;
