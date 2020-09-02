@@ -10,7 +10,7 @@ function Header() {
         <div className='header__row row'>
           <Logo />
           <Nav />
-          <AuthBtns />
+          <AuthBtns /> 
         </div>
       </div>
     </header>

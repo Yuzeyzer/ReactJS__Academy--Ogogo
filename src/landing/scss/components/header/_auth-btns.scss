@@ -2,9 +2,13 @@
 	display: flex;
 	&__log-in,
 	&__sign-up {
+		font-weight: 700;
 		margin-left: vw(50);
 		img {
 			margin-right: vw(10);
+		}
+		span {
+			margin-left: vw(13);
 		}
 	}
 }
