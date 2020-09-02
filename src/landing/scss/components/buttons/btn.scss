@@ -1,4 +1,5 @@
 .btn {
+	min-height: vw(60);
 	font-family: $segoeUI;
 	font-size: vw(16);
 	font-weight: 600;
@@ -19,6 +20,11 @@
 		text-align: center;
 	}
 }
+.btn-circle {
+	border-radius: 50%;
+	padding: vw(15);
+	width: vw(60);
+}
 .btn-white {
 	background-color: $white;
 	border: vw(2) solid $white;
@@ -28,6 +34,9 @@
 		background-color: $darkBlue;
 		color: $white;
 		border: vw(2) solid $white;
+		svg,svg path {
+			fill: $white;
+		}
 	}
 }
 .btn-dark-blue {
@@ -50,5 +59,8 @@
 		background-color: $white;
 		color: $lightBlue;
 		border: vw(2) solid $lightBlue;
+		svg,svg path {
+			fill: $lightBlue;
+		}
 	}
 }
