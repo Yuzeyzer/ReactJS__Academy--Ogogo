@@ -1,5 +1,4 @@
 import React from 'react';
-import UserIcon from '../../assets/svg/user-icon.svg';
 
 function AuthBtns() {
   return (
