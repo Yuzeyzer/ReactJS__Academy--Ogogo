@@ -12,6 +12,104 @@ function Courses() {
             регистрации
           </p>
         </div>
+        <div className='courses__row row'>
+          <div className='courses__column col-3'>
+            <div className='courses__item'>
+              <img src='' alt='' className='courses__img' />
+              <h5 className='courses__name'></h5>
+              <span className='courses__price'></span>
+              <button className='courses__buy'></button>
+            </div>
+          </div>
+          <div className='courses__column col-3'>
+            <div className='courses__item'>
+              <img src='' alt='' className='courses__img' />
+              <h5 className='courses__name'></h5>
+              <span className='courses__price'></span>
+              <button className='courses__buy'></button>
+            </div>
+          </div>
+          <div className='courses__column col-3'>
+            <div className='courses__item'>
+              <img src='' alt='' className='courses__img' />
+              <h5 className='courses__name'></h5>
+              <span className='courses__price'></span>
+              <button className='courses__buy'></button>
+            </div>
+          </div>
+          <div className='courses__column col-3'>
+            <div className='courses__item'>
+              <img src='' alt='' className='courses__img' />
+              <h5 className='courses__name'></h5>
+              <span className='courses__price'></span>
+              <button className='courses__buy'></button>
+            </div>
+          </div>
+          <div className='courses__column col-3'>
+            <div className='courses__item'>
+              <img src='' alt='' className='courses__img' />
+              <h5 className='courses__name'></h5>
+              <span className='courses__price'></span>
+              <button className='courses__buy'></button>
+            </div>
+          </div>
+          <div className='courses__column col-3'>
+            <div className='courses__item'>
+              <img src='' alt='' className='courses__img' />
+              <h5 className='courses__name'></h5>
+              <span className='courses__price'></span>
+              <button className='courses__buy'></button>
+            </div>
+          </div>
+          <div className='courses__column col-3'>
+            <div className='courses__item'>
+              <img src='' alt='' className='courses__img' />
+              <h5 className='courses__name'></h5>
+              <span className='courses__price'></span>
+              <button className='courses__buy'></button>
+            </div>
+          </div>
+          <div className='courses__column col-3'>
+            <div className='courses__item'>
+              <img src='' alt='' className='courses__img' />
+              <h5 className='courses__name'></h5>
+              <span className='courses__price'></span>
+              <button className='courses__buy'></button>
+            </div>
+          </div>
+          <div className='courses__column col-3'>
+            <div className='courses__item'>
+              <img src='' alt='' className='courses__img' />
+              <h5 className='courses__name'></h5>
+              <span className='courses__price'></span>
+              <button className='courses__buy'></button>
+            </div>
+          </div>
+          <div className='courses__column col-3'>
+            <div className='courses__item'>
+              <img src='' alt='' className='courses__img' />
+              <h5 className='courses__name'></h5>
+              <span className='courses__price'></span>
+              <button className='courses__buy'></button>
+            </div>
+          </div>
+          <div className='courses__column col-3'>
+            <div className='courses__item'>
+              <img src='' alt='' className='courses__img' />
+              <h5 className='courses__name'></h5>
+              <span className='courses__price'></span>
+              <button className='courses__buy'></button>
+            </div>
+          </div>
+          <div className='courses__column col-3'>
+            <div className='courses__item'>
+              <img src='' alt='' className='courses__img' />
+              <h5 className='courses__name'></h5>
+              <span className='courses__price'></span>
+              <button className='courses__buy'></button>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
