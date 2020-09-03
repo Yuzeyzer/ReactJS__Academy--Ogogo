@@ -52,11 +52,9 @@
 	}
 }
 .destinations__item {
-	svg {
-		display: block;
+	&-img {
 		width: vw(70);
 		height: vw(70);
-		margin: auto;
 	}
 	&-title {
 		margin: vw(10) 0;
