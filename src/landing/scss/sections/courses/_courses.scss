@@ -1,0 +1,31 @@
+.courses {
+	padding: vw(110) 0;
+	&__header {
+		max-width: vw(775);
+	}
+	&__title {
+		font-family: $poppins;
+		font-weight: 700;
+		font-size: vw(30);
+		color: $white;
+	}
+	&__description {
+		position: relative;
+		font-family: $poppins;
+		font-weight: 400;
+		font-size: vw(18);
+		color: $gray;
+		margin-top: vw(11);
+		margin-left: vw(21);
+		margin-bottom: vw(58);
+		&::before {
+			content: '';
+			position: absolute;
+			left: vw(-18);
+			top: vw(-2);
+			height: 110%;
+			width: vw(3);
+			background-color: $gray;
+		}
+	}
+}

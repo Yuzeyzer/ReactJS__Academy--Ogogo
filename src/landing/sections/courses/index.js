@@ -15,98 +15,20 @@ function Courses() {
         <div className='courses__row row'>
           <div className='courses__column col-3'>
             <div className='courses__item'>
-              <img src='' alt='' className='courses__img' />
-              <h5 className='courses__name'></h5>
-              <span className='courses__price'></span>
-              <button className='courses__buy'></button>
-            </div>
-          </div>
-          <div className='courses__column col-3'>
-            <div className='courses__item'>
-              <img src='' alt='' className='courses__img' />
-              <h5 className='courses__name'></h5>
-              <span className='courses__price'></span>
-              <button className='courses__buy'></button>
-            </div>
-          </div>
-          <div className='courses__column col-3'>
-            <div className='courses__item'>
-              <img src='' alt='' className='courses__img' />
-              <h5 className='courses__name'></h5>
-              <span className='courses__price'></span>
-              <button className='courses__buy'></button>
-            </div>
-          </div>
-          <div className='courses__column col-3'>
-            <div className='courses__item'>
-              <img src='' alt='' className='courses__img' />
-              <h5 className='courses__name'></h5>
-              <span className='courses__price'></span>
-              <button className='courses__buy'></button>
-            </div>
-          </div>
-          <div className='courses__column col-3'>
-            <div className='courses__item'>
-              <img src='' alt='' className='courses__img' />
-              <h5 className='courses__name'></h5>
-              <span className='courses__price'></span>
-              <button className='courses__buy'></button>
-            </div>
-          </div>
-          <div className='courses__column col-3'>
-            <div className='courses__item'>
-              <img src='' alt='' className='courses__img' />
-              <h5 className='courses__name'></h5>
-              <span className='courses__price'></span>
-              <button className='courses__buy'></button>
-            </div>
-          </div>
-          <div className='courses__column col-3'>
-            <div className='courses__item'>
-              <img src='' alt='' className='courses__img' />
-              <h5 className='courses__name'></h5>
-              <span className='courses__price'></span>
-              <button className='courses__buy'></button>
-            </div>
-          </div>
-          <div className='courses__column col-3'>
-            <div className='courses__item'>
-              <img src='' alt='' className='courses__img' />
-              <h5 className='courses__name'></h5>
-              <span className='courses__price'></span>
-              <button className='courses__buy'></button>
-            </div>
-          </div>
-          <div className='courses__column col-3'>
-            <div className='courses__item'>
-              <img src='' alt='' className='courses__img' />
-              <h5 className='courses__name'></h5>
-              <span className='courses__price'></span>
-              <button className='courses__buy'></button>
-            </div>
-          </div>
-          <div className='courses__column col-3'>
-            <div className='courses__item'>
-              <img src='' alt='' className='courses__img' />
-              <h5 className='courses__name'></h5>
-              <span className='courses__price'></span>
-              <button className='courses__buy'></button>
-            </div>
-          </div>
-          <div className='courses__column col-3'>
-            <div className='courses__item'>
-              <img src='' alt='' className='courses__img' />
-              <h5 className='courses__name'></h5>
-              <span className='courses__price'></span>
-              <button className='courses__buy'></button>
-            </div>
-          </div>
-          <div className='courses__column col-3'>
-            <div className='courses__item'>
-              <img src='' alt='' className='courses__img' />
-              <h5 className='courses__name'></h5>
-              <span className='courses__price'></span>
-              <button className='courses__buy'></button>
+              <div className='courses__info'>
+                <img src='' alt='' className='courses__logo' />
+                <img src='' alt='' className='courses__img' />
+                <p className='courses__biography'>
+                  Front - End Разработка, это очень творческая но в то же время требуюящая логику
+                  профессия
+                </p>
+                <span className='courses__update'>21.08.2020</span>
+              </div>
+              <h5 className='courses__author author'>
+                <span className='author__name'>Курбанов Атабек (Frontend Mentor)</span>
+              </h5>
+              <span className='courses__price'>2590 сом</span>
+              <button className='courses__buy'>Приобрести</button>
             </div>
           </div>
         </div>
