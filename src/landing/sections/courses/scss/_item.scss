@@ -1,0 +1,52 @@
+.courses {
+	&__info {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		position: relative;
+		z-index: 1;
+		min-height: vw(245);
+		padding: vw(15) vw(25);
+		&::before {
+			position: absolute;
+			left: 0;
+			top: 0;
+			z-index: -1;
+			content: '';
+			width: 100%;
+			height: 100%;
+			background-color: $darkBlue;
+			opacity: 0.6;
+		}
+	}
+	&__img {
+		position: absolute;
+		left: 0;
+		top: 0;
+		z-index: -2;
+		width: 100%;
+		max-height: 100%;
+	}
+	&__logo {
+		position: absolute;
+		right: vw(20);
+		top: vw(15);
+		width: vw(50);
+		height: vw(50);
+		border-radius: 50%;
+	}
+	&__biography {
+		color: $white;
+		font-family: $poppins;
+		font-size: vw(16);
+		line-height: vw(21);
+		letter-spacing: 0.021em;
+	}
+	&__update {
+		margin-top: vw(10);
+		font-family: $poppins;
+		font-size: vw(14);
+		font-weight: 600;
+		color: $gray;
+	}
+}
