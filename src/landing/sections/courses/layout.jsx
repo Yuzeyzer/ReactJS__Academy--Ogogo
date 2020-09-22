@@ -1,7 +1,5 @@
 import React from 'react';
-import logo from '../../assets/jpg/logo.jpg';
-import courses1 from '../../assets/png/courses-item-1.png';
-
+import Item from './components/item';
 function Layout() {
   return (
     <section className='courses'>
@@ -15,24 +13,7 @@ function Layout() {
           </p>
         </div>
         <div className='courses__row row'>
-          <div className='courses__column col-3'>
-            <div className='courses__item'>
-              <div className='courses__info'>
-                <img src={logo} alt='' className='courses__logo' />
-                <img src={courses1} alt='' className='courses__img' />
-                <p className='courses__biography'>
-                  <b>Front - End</b> Разработка, это очень творческая но в то же время требуюящая логику
-                  профессия
-                </p>
-                <span className='courses__update'>21.08.2020</span>
-              </div>
-              <h5 className='courses__author author'>
-                <span className='author__name'>Курбанов Атабек (Frontend Mentor)</span>
-              </h5>
-              <span className='courses__price'>2590 сом</span>
-              <button className='courses__buy'>Приобрести</button>
-            </div>
-          </div>
+					<Item />
         </div>
       </div>
     </section>
