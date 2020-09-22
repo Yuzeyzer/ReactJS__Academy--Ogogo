@@ -23,6 +23,11 @@ $gray: #b2abb2;
 .hidden {
 	visibility: hidden;
 }
+.flex-align-center {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
 // fonts
 
 $robotoCondensed: "Roboto Condensed", sans-serif;

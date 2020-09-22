@@ -64,3 +64,29 @@
 		}
 	}
 }
+
+
+.btn-buy {
+	display: flex;
+		align-items: center;
+		float: right;
+		color: $white;
+		background-color: $lightBlue;
+		border: none;
+		outline: none;
+		padding: vw(10) vw(10);
+		border-radius: vw(50);
+		cursor: pointer;
+		&__logo {
+			width: vw(20);
+			height: vw(20);
+			margin: 0 0 0 vw(10);
+		}
+		&__text {
+			font-family: $segoeUI;
+			text-transform: uppercase;
+			font-weight: 700;
+			font-size: vw(16);
+			margin: 0 vw(20);
+		}
+}

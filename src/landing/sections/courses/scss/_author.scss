@@ -1,0 +1,14 @@
+.author {
+	&__course {
+		font-family: $poppins;
+		font-weight: 400;
+		font-size: vw(16);
+		color: $white;
+	}
+	&__name {
+		font-family: $poppins;
+		font-weight: 600;
+		font-size: vw(20);
+		color: $gray;
+	}
+}
