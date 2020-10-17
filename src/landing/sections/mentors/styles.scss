@@ -1,0 +1,100 @@
+@import "../../scss/index.scss";
+
+.mentors {
+	padding: vw(110) 0;
+	background-color: $white;
+
+	&__header {
+		max-width: vw(775);
+	}
+
+	&__title {
+		font-family: $poppins;
+		font-weight: 700;
+		font-size: vw(30);
+		color: $darkBlue;
+	}
+
+	&__description {
+		position: relative;
+		font-family: $poppins;
+		font-weight: 400;
+		font-size: vw(18);
+		color: $gray;
+		margin-top: vw(11);
+		margin-left: vw(21);
+		margin-bottom: vw(58);
+		&::before {
+			content: "";
+			position: absolute;
+			left: vw(-18);
+			top: vw(-2);
+			height: 110%;
+			width: vw(3);
+			background-color: $gray;
+		}
+	}
+
+	&__row {
+		margin: vw(-45);
+	}
+
+	&__column {
+		padding: 0 vw(30) vw(60);
+		.col-4 {
+			width: 33.33%;
+		}
+		.col-8 {
+			width: 66.66%;
+		}
+	}
+
+	&__item {
+		padding: vw(20) vw(30);
+		box-shadow: 0 0 vw(30) vw(0) rgba(0, 0, 0, 0.4);
+		border-radius: vw(15);
+	}
+
+	&__name {
+		font-weight: 700;
+		font-style: normal;
+		font-size: vw(24);
+		color: $darkBlue;
+	}
+
+	&__logo {
+		width: vw(50);
+		height: vw(50);
+		border-radius: 50%;
+	}
+
+	&__skills {
+		font-weight: 400;
+		font-style: normal;
+		font-family: $segoeUI;
+		color: $gray;
+	}
+
+	&__story {
+		font-family: $philosoph;
+		font-size: vw(18);
+		font-weight: 500;
+		line-height: vw(24);
+		color: $darkBlue;
+	}
+
+	img {
+		max-width: 100%;
+	}
+
+	&__item-row {
+		margin: vw(-10);
+	}
+
+	&__item-column {
+		padding: vw(10);
+	}
+	&__avatar {
+		min-width: vw(150);
+	}
+}

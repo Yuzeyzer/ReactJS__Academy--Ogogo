@@ -1,7 +1,8 @@
 import React from 'react';
 import Hero from './hero';
 import Destinations from './destinations';
-import Courses from './courses'
+import Courses from './courses';
+import Mentors from './mentors';
 
 function Sections() {
 	return (
@@ -9,6 +10,7 @@ function Sections() {
 			<Hero />
 			<Destinations />
 			<Courses />
+			<Mentors />
 		</main>
 	)
 }
