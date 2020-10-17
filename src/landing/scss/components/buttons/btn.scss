@@ -55,6 +55,9 @@
 	border: vw(2) solid $lightBlue;
 	transition: 0.3s;
 	color: $white;
+	svg,svg path {
+		transition: 0.3s;
+	}
 	&:hover {
 		background-color: $white;
 		color: $lightBlue;
