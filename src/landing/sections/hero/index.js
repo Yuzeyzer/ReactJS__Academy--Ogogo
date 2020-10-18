@@ -1,6 +1,7 @@
 import React from 'react';
 import HeroContent from './HeroContent';
 import rightBg from '../../assets/png/right-img.png';
+import './styles.scss';
 
 function Hero() {
   return (

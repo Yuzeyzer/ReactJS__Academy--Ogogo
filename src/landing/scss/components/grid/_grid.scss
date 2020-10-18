@@ -12,6 +12,12 @@
 .col-12 {
 	width: 100%;
 }
+.col-9 {
+	width: 75%;
+}
+.col-8 {
+	width: 66.66%;
+}
 .col-6 {
 	width: 50%;
 }
@@ -31,6 +37,12 @@
 	width: 8.88%;
 }
 @media screen and (max-width:1024px) {
+	.col-9 {
+		width: 100%;
+	}
+	.col-8 {
+		width: 100%;
+	}
 	.col-6 {
 		width: 100%;
 	}
@@ -48,5 +60,19 @@
 	}
 	.col-1 {
 		width: 16.66%;
+	}
+}
+@media screen and (max-width:768px) {
+	.col-4 {
+		width: 100%;
+	}
+	.col-3 {
+		width: 66.44%;
+	}
+	.col-2 {
+		width: 50%;
+	}
+	.col-1 {
+		width: 33.33%;
 	}
 }

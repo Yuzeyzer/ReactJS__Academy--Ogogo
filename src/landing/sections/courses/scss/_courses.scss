@@ -2,12 +2,18 @@
 	padding: vw(110) 0;
 	&__header {
 		max-width: vw(775);
+		@include mobile {
+			max-width: vmin(775);
+		}
 	}
 	&__title {
 		font-family: $poppins;
 		font-weight: 700;
 		font-size: vw(30);
 		color: $white;
+		@include mobile {
+			font-size: vmin(30);
+		}
 	}
 	&__description {
 		position: relative;
@@ -19,13 +25,28 @@
 		margin-left: vw(21);
 		margin-bottom: vw(58);
 		&::before {
-			content: '';
+			content: "";
 			position: absolute;
 			left: vw(-18);
 			top: vw(-2);
 			height: 110%;
 			width: vw(3);
 			background-color: $gray;
+			@include mobile {
+				left: vmin(-18);
+				top: vmin(-2);
+				width: vmin(3);
+				height: 100%;
+			}
 		}
+		@include mobile {
+			font-size: vmin(18);
+			margin-top: vmin(10);
+			margin-left: vmin(20);
+			margin-bottom: vmin(15);
+		}
+	}
+	@include mobile {
+		padding: vmin(25) 0;
 	}
 }

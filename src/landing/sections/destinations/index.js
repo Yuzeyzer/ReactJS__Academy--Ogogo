@@ -1,7 +1,8 @@
 import React from 'react';
 import Item from './item';
+import './styles.scss';
 
-function Destinations() {
+const Destinations = () => {
   return (
     <section className='destinations'>
       <div className='container'>

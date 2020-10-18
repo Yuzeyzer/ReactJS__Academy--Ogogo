@@ -34,7 +34,8 @@
 		background-color: $darkBlue;
 		color: $white;
 		border: vw(2) solid $white;
-		svg,svg path {
+		svg,
+		svg path {
 			fill: $white;
 		}
 	}
@@ -55,38 +56,55 @@
 	border: vw(2) solid $lightBlue;
 	transition: 0.3s;
 	color: $white;
+	svg,
+	svg path {
+		transition: 0.3s;
+	}
 	&:hover {
 		background-color: $white;
 		color: $lightBlue;
 		border: vw(2) solid $lightBlue;
-		svg,svg path {
+		svg,
+		svg path {
 			fill: $lightBlue;
 		}
 	}
 }
 
-
 .btn-buy {
 	display: flex;
-		align-items: center;
-		float: right;
-		color: $white;
-		background-color: $lightBlue;
-		border: none;
-		outline: none;
-		padding: vw(10) vw(10);
-		border-radius: vw(50);
-		cursor: pointer;
-		&__logo {
-			width: vw(20);
-			height: vw(20);
-			margin: 0 0 0 vw(10);
+	align-items: center;
+	float: right;
+	color: $white;
+	background-color: $lightBlue;
+	border: none;
+	outline: none;
+	padding: vw(10) vw(10);
+	border-radius: vw(50);
+	cursor: pointer;
+	&__logo {
+		width: vw(20);
+		height: vw(20);
+		margin: 0 0 0 vw(10);
+		@include mobile {
+			width: vmin(20);
+			height: vmin(20);
+			margin: 0 0 0 vmin(10);
 		}
-		&__text {
-			font-family: $segoeUI;
-			text-transform: uppercase;
-			font-weight: 700;
-			font-size: vw(16);
-			margin: 0 vw(20);
+	}
+	&__text {
+		font-family: $segoeUI;
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size: vw(16);
+		margin: 0 vw(20);
+		@include mobile {
+			font-size: vmin(14);
+			margin: 0 vmin(20);
 		}
+	}
+	@include mobile {
+		padding: vmin(10) vmin(10);
+		border-radius: vmin(50);
+	}
 }

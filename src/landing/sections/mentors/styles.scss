@@ -1,0 +1,169 @@
+@import "../../scss/index.scss";
+
+.mentors {
+	padding: vw(70) 0;
+	background-color: $white;
+
+	&__header {
+		max-width: vw(775);
+		@include mobile {
+			max-width: vmin(775);
+		}
+	}
+
+	&__title {
+		font-family: $poppins;
+		font-weight: 700;
+		font-size: vw(30);
+		color: $darkBlue;
+		@include mobile {
+			font-size: vmin(30);
+			line-height: 1;
+		}
+	}
+
+	&__description {
+		position: relative;
+		font-family: $poppins;
+		font-weight: 400;
+		font-size: vw(18);
+		color: $gray;
+		margin-top: vw(11);
+		margin-left: vw(21);
+		margin-bottom: vw(58);
+		&::before {
+			content: "";
+			position: absolute;
+			left: vw(-18);
+			top: vw(-2);
+			height: 110%;
+			width: vw(3);
+			background-color: $gray;
+			@include mobile {
+				left: vmin(-18);
+				top: vmin(-2);
+				height: 100%;
+				width: vmin(2);
+			}
+		}
+		@include mobile {
+			font-size: vmin(18);
+			margin-top: vmin(10);
+			margin-left: vmin(20);
+			margin-bottom: vmin(30);
+		}
+	}
+
+	&__row {
+		margin: vw(-45);
+		padding-top: vw(40);
+		@include mobile {
+			margin: vmin(-45) 0;
+			padding: vmin(40) 0;
+		}
+	}
+
+	&__column {
+		padding: 0 vw(30) vw(60);
+		.col-4 {
+			width: 50%;
+		}
+		.col-8 {
+			width: 50%;
+		}
+		@include mobile {
+			padding: 0 0 vmin(60);
+		}
+		@media screen and (max-width: 768px) {
+			.col-4 {
+				width: 100%;
+				padding: 0 vmin(10);
+			}
+			.col-8 {
+				width: 100%;
+				padding: 0 vmin(10);
+			}
+		}
+	}
+
+	&__item {
+		padding: vw(20) vw(30);
+		box-shadow: 0 0 vw(30) vw(0) rgba(0, 0, 0, 0.1);
+		border-radius: vw(15);
+		@include mobile {
+			position: relative;
+			padding: vmin(20) vmin(15);
+			box-shadow: none;
+			border-radius: vmin(15);
+		}
+	}
+
+	&__name {
+		font-weight: 700;
+		font-style: normal;
+		font-size: vw(24);
+		color: $black;
+		@include mobile {
+			margin-top: vmin(15);
+			font-size: vmin(24);
+		}
+	}
+
+	&__skills {
+		font-size: vw(16);
+		font-weight: 400;
+		font-style: normal;
+		font-family: $segoeUI;
+		color: $gray;
+		@include mobile {
+			font-size: vmin(14);
+		}
+	}
+
+	&__story {
+		margin-top: vw(5);
+		margin-bottom: vw(30);
+		font-family: $poppins;
+		font-size: vw(18);
+		font-weight: 500;
+		line-height: vw(24);
+		color: $black;
+		@include mobile {
+			margin-top: vmin(10);
+			margin-bottom: vmin(30);
+			font-size: vmin(18);
+			line-height: vmin(26);
+			color: #000;
+		}
+	}
+
+	img {
+		max-width: 100%;
+	}
+
+	&__item-row {
+		margin: vw(-10);
+		@include mobile {
+			margin: 0 vmin(-10);
+		}
+	}
+
+	&__item-column {
+		padding: vw(10);
+		@include mobile {
+			padding: vmin(5);
+		}
+	}
+
+	&__avatar {
+		min-width: vw(150);
+		width: 100%;
+		@include mobile {
+			height: 100%;
+		}
+	}
+
+	.btn-buy {
+		margin: auto;
+	}
+}

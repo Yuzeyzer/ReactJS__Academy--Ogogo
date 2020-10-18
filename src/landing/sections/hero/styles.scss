@@ -1,3 +1,5 @@
+@import '../../scss/index.scss';
+
 .hero {
 	height: vw(800);
 	position: relative;
@@ -10,7 +12,7 @@
 		top: 0;
 		width: vw(1140);
 		height: vw(900);
-		background: $white url('../../../assets/png/bg.png') no-repeat center;
+		background: $white url('../../assets/png/bg.png') no-repeat center;
 		background-size: cover;
 		z-index: -1;
 	}
