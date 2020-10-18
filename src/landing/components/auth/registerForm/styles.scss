@@ -1,0 +1,209 @@
+@import "../../../scss/index.scss";
+
+.register {
+	position: relative;
+	z-index: 1;
+	background: $white;
+	height: 100vh;
+	overflow: hidden;
+	.bubbles {
+		position: absolute;
+		right: 0;
+		top: 0;
+		z-index: -1;
+	}
+	&__logo {
+		display: block;
+		width: vw(110);
+		height: vw(110);
+		border-radius: 50%;
+		margin: auto;
+		&-wrapper {
+			max-width: vw(280);
+			@include mobile {
+				max-width: vmin(280);
+			}
+		}
+		@include mobile {
+			width: vmin(80);
+			height: vmin(80);
+		}
+	}
+	&__name {
+		margin-top: vw(5);
+		display: block;
+		font-family: $poppins;
+		font-weight: 700;
+		font-size: vw(30);
+		color: $lightBlue;
+		text-align: center;
+		@include mobile {
+			margin-top: vmin(5);
+			font-size: vmin(24);
+		}
+	}
+	&__title {
+		margin-top: vw(20);
+		margin-bottom: vw(5);
+		font-family: $poppins;
+		font-weight: 400;
+		font-size: vw(26);
+		color: $gray;
+		text-align: center;
+		@include mobile {
+			text-align: left;
+			margin-top: vmin(10);
+			margin-bottom: vmin(5);
+			font-size: vmin(18);
+			line-height: 1.1;
+		}
+	}
+	&__label {
+		margin-top: vw(15);
+		display: flex;
+		flex-direction: column;
+		@include mobile {
+			margin-top: vmin(15);
+		}
+	}
+	&__type {
+		padding-left: vw(25);
+		margin-bottom: vw(10);
+		font-family: $robotoCondensed;
+		font-weight: 400;
+		font-size: vw(18);
+		color: $gray;
+		@include mobile {
+			padding-left: 0;
+			margin-bottom: vmin(10);
+			font-size: vmin(16);
+		}
+	}
+	&__input {
+		padding: vw(25) vw(35);
+		border: vw(2) solid $lightBlue;
+		border-radius: vw(50);
+		font-family: $roboto;
+		font-size: vw(18);
+		color: $lightBlue;
+		outline: none;
+		&::placeholder {
+			color: $lightBlue;
+			font-family: $roboto;
+			font-size: vw(18);
+			@include mobile {
+				font-size: vmin(18);
+			}
+		}
+		@include mobile {
+			padding: vmin(18) vmin(28);
+			border: vmin(2) solid $lightBlue;
+			border-radius: vmin(50);
+			font-size: vmin(18);
+		}
+	}
+	&__in {
+		margin-top: vw(30);
+		margin-bottom: vw(30);
+		padding: vw(25) vw(35);
+		font-weight: 700;
+		font-family: $roboto;
+		font-size: vw(22);
+		letter-spacing: vw(2);
+		border: vw(2) solid transparent;
+		border-radius: vw(50);
+		color: $white;
+		outline: none;
+		background: $lightBlue;
+		text-transform: uppercase;
+		box-sizing: border-box;
+		cursor: pointer;
+		transition: 0.3s;
+		&:hover {
+			border: vw(2) solid $lightBlue;
+			color: $lightBlue;
+			background: #fff;
+		}
+		@include mobile {
+			margin-top: vmin(30);
+			margin-bottom: vmin(10);
+			padding: vmin(15) vmin(15);
+			font-weight: 700;
+			font-size: vmin(18);
+			letter-spacing: vmin(2);
+			border: vmin(2) solid transparent;
+			border-radius: vmin(50);
+		}
+	}
+	&__form {
+		&-wrapper {
+			background: url("../../../assets/png/bubbles.png") no-repeat;
+			background-size: cover;
+			padding: vw(105);
+			a {
+				display: block;
+				margin: auto;
+			}
+			@include mobile {
+				padding: vmin(50) vmin(20) vmin(105);
+			}
+		}
+		display: flex;
+		flex-direction: column;
+	}
+	&__no-accaunt {
+		margin-left: vw(25);
+		font-family: $poppins;
+		font-weight: 400;
+		font-size: vw(26);
+		color: $gray;
+		@include mobile {
+			display: block;
+			margin: 0 auto vmin(15);
+			font-size: vmin(24);
+		}
+	}
+	&__register {
+		margin: unset !important;
+		width: vw(270);
+		text-align: center;
+		padding: vw(20) vw(30);
+		font-family: $roboto;
+		font-weight: 700;
+		font-size: vw(18);
+		border: vw(2) solid $lightBlue;
+		border-radius: vw(50);
+		color: $lightBlue;
+		outline: none;
+		transition: 0.3s;
+		&::placeholder {
+			color: $lightBlue;
+		}
+		&:hover {
+			background-color: $lightBlue;
+			border: vw(2) solid $white;
+			color: $white;
+		}
+		@include mobile {
+			width: 100%;
+			padding: vmin(20) vmin(30);
+			font-size: vmin(18);
+			border: vmin(2) solid $lightBlue;
+			border-radius: vmin(50);
+		}
+	}
+	&__row {
+		.row {
+			justify-content: space-between;
+			align-items: center;
+		}
+	}
+	&__background {
+		max-height: 100vh;
+		width: 100%;
+		object-fit: cover;
+		@include mobile {
+			display: none;
+		}
+	}
+}
