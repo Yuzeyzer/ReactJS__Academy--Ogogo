@@ -18,7 +18,7 @@ function AuthBtns() {
         </svg>
         <span>Войти</span>
       </button>
-      <button className='btn auth-btns__sign-up btn-white btn-circle'>
+      <button className='btn auth-btns__sign-up btn-white'>
         <svg
           xmlns='http://www.w3.org/2000/svg'
           width='23.217'
@@ -31,6 +31,7 @@ function AuthBtns() {
             fill='#000745'
           />
         </svg>
+        <span>Регистрация</span>
       </button>
     </div>
   );

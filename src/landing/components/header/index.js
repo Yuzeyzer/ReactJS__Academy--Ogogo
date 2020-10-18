@@ -2,6 +2,7 @@ import React from 'react';
 import Nav from './nav';
 import AuthBtns from './authBtn';
 import Logo from './logo';
+import BurgerMenu from './burgerMenu';
 
 function Header() {
   return (
@@ -11,6 +12,7 @@ function Header() {
           <Logo />
           <Nav />
           <AuthBtns /> 
+          <BurgerMenu />
         </div>
       </div>
     </header>
