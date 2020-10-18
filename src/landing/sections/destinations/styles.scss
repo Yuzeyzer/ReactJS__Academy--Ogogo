@@ -1,4 +1,4 @@
-@import '../../scss/index.scss';
+@import "../../scss/index.scss";
 
 .destinations {
 	background-color: $white;
@@ -44,6 +44,10 @@
 		width: 25%;
 		height: 100%;
 		padding: vw(23) vw(23);
+		@include mobile {
+			padding: vmin(23) vmin(23);
+			width: 100%;
+		}
 	}
 	&__item {
 		padding: vw(60) vw(40) vw(50);
@@ -51,12 +55,26 @@
 		text-align: center;
 		box-shadow: 0 vw(5) vw(50) 0 rgba(0, 0, 0, 0.1);
 		border-radius: vw(10);
+		@include mobile {
+			padding: vmin(30) vmin(20) vmin(30);
+			min-height: vmin(300);
+			text-align: center;
+			box-shadow: 0 vmin(5) vmin(20) 0 rgba(0, 0, 0, 0.1);
+			border-radius: vmin(10);
+		}
+	}
+	@include mobile {
+		padding: vmin(25) 0;
 	}
 }
 .destinations__item {
 	&-img {
 		width: vw(70);
 		height: vw(70);
+		@include mobile {
+			width: vmin(70);
+			height: vmin(70);
+		}
 	}
 	&-title {
 		margin: vw(10) 0;
@@ -64,12 +82,19 @@
 		font-weight: 700;
 		font-size: vw(20);
 		color: $darkBlue;
+		@include mobile {
+			margin: vmin(10) 0;
+			font-size: vmin(20);
+		}
 	}
 	&-text {
 		font-family: $poppins;
 		font-weight: 400;
 		font-size: vw(16);
 		color: $darkBlue;
+		@include mobile {
+			font-size: vmin(16);
+		}
 	}
 	&-list {
 		margin-bottom: vw(20);
@@ -79,8 +104,9 @@
 		li {
 			position: relative;
 			margin-bottom: vw(5);
+			font-size: vw(16);
 			&::before {
-				content: '';
+				content: "";
 				position: absolute;
 				top: 50%;
 				left: vw(-15);
@@ -89,7 +115,20 @@
 				width: vw(6);
 				height: vw(6);
 				transform: translateY(-50%);
+				@include mobile {
+					left: vmin(-15);
+					width: vmin(6);
+					height: vmin(6);
+				}
 			}
+			@include mobile {
+				margin-bottom: vmin(5);
+				font-size: vmin(16);
+			}
+		}
+		@include mobile {
+			margin-bottom: vmin(20);
+			padding-left: vmin(40);
 		}
 	}
 	.btn {

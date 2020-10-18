@@ -1,6 +1,5 @@
 import iconUxUi from '../../assets/svg/ux-ui.svg';
 import iconPython from '../../assets/svg/python.svg';
-import icon3d from '../../assets/svg/3d.svg';
 import iconFrontend from '../../assets/svg/frontend.svg';
 import iconJava from '../../assets/svg/java.svg';
 

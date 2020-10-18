@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from '../../assets/jpg/logo.jpg';
 import logoSmall from '../../assets/png/logo-small.png';
 import cart from '../../assets/svg/cart.svg';
 
@@ -30,16 +29,15 @@ function Layout({ item }) {
                     </div>
                   </div>
                   <p className='mentors__story'>{items.description}</p>
-                  <React.Fragment>
-                    <img className='mentors__logo' src={logo} alt='logo' />
-                    <button className='courses__buy btn-buy'>
+                 <div className="row">
+                    <button className='btn-buy'>
                       <img className='btn-buy__logo' src={logoSmall} alt='small logo' />
                       <span className='btn-buy__text'>Познакомиться</span>
                       <div className='cart'>
                         <img src={cart} alt='cart' />
                       </div>
                     </button>
-                  </React.Fragment>
+                  </div>
                 </div>
               </div>
             );

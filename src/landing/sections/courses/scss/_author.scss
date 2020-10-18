@@ -4,11 +4,17 @@
 		font-weight: 400;
 		font-size: vw(16);
 		color: $white;
+		@include mobile {
+			font-size: vmin(16);
+		}
 	}
 	&__name {
 		font-family: $poppins;
 		font-weight: 600;
 		font-size: vw(20);
 		color: $gray;
+		@include mobile {
+			font-size: vmin(20);
+		}
 	}
 }
