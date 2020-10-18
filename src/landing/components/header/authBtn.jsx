@@ -1,9 +1,10 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 function AuthBtns() {
   return (
     <div className='header__auth-btns auth-btns'>
-      <button className='btn auth-btns__log-in btn-light-blue'>
+      <Link to='/login' className='btn auth-btns__log-in btn-light-blue'>
         <svg
           xmlns='http://www.w3.org/2000/svg'
           width='16.476'
@@ -17,8 +18,8 @@ function AuthBtns() {
           />
         </svg>
         <span>Войти</span>
-      </button>
-      <button className='btn auth-btns__sign-up btn-white'>
+      </Link>
+      <Link to='register' className='btn auth-btns__sign-up btn-white'>
         <svg
           xmlns='http://www.w3.org/2000/svg'
           width='23.217'
@@ -32,7 +33,7 @@ function AuthBtns() {
           />
         </svg>
         <span>Регистрация</span>
-      </button>
+      </Link>
     </div>
   );
 }

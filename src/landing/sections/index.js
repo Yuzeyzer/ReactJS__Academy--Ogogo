@@ -3,16 +3,21 @@ import Hero from './hero';
 import Destinations from './destinations';
 import Courses from './courses';
 import Mentors from './mentors';
+import { Header, Footer } from '../components';
 
 function Sections() {
-	return (
-		<main>
-			<Hero />
-			<Destinations />
-			<Courses />
-			<Mentors />
-		</main>
-	)
+  return (
+    <React.Fragment>
+      <Header />
+      <main>
+        <Hero />
+        <Destinations />
+        <Courses />
+        <Mentors />
+      </main>
+      <Footer />
+    </React.Fragment>
+  );
 }
 
-export default Sections
+export default Sections;
