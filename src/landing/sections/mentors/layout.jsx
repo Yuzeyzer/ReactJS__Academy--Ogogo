@@ -4,7 +4,7 @@ import cart from '../../assets/svg/cart.svg';
 
 function Layout({ item }) {
   return (
-    <section className='mentors'>
+    <section className='mentors' id='mentors'>
       <div className='container'>
         <div className='mentors__header'>
           <h3 className='mentors__title title'>Твои будущие менторы</h3>

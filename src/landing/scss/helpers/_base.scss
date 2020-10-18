@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 .container {
 	padding: 0 vw(120);
 	margin: auto;
