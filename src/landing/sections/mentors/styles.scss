@@ -37,6 +37,7 @@
 
 	&__row {
 		margin: vw(-45);
+		padding-top: vw(40);
 	}
 
 	&__column {
@@ -51,7 +52,7 @@
 
 	&__item {
 		padding: vw(20) vw(30);
-		box-shadow: 0 0 vw(30) vw(0) rgba(0, 0, 0, 0.4);
+		box-shadow: 0 0 vw(30) vw(0) rgba(0, 0, 0, 0.1);
 		border-radius: vw(15);
 	}
 
@@ -76,11 +77,14 @@
 	}
 
 	&__story {
+		margin-top: vw(5);
+		margin-bottom: vw(30);
 		font-family: $philosoph;
 		font-size: vw(18);
 		font-weight: 500;
 		line-height: vw(24);
-		color: $darkBlue;
+		color: $black;
+		opacity: 0.8;
 	}
 
 	img {

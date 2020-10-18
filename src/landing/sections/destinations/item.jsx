@@ -10,7 +10,12 @@ function Item() {
               <div className='destinations__item'>
                 <img className='destinations__item-img' src={item.icon} alt={item.title} />
                 <h5 className='destinations__item-title'>{item.title}</h5>
-                <p className='destinations__item-text'>{item.format}</p>
+                <ul className='destinations__item-list'>
+                  <li>Длительность - {item.duration}</li>
+                  <li>Формат - {item.format}</li>
+                  <li>Время - {item.time}</li>
+                </ul>
+                <button className="btn btn-dark-blue">Записаться</button>
               </div>
             </div>
           );

@@ -8,26 +8,29 @@ export const item = [
   {
     icon: `${iconUxUi}`,
     title: 'UX/UI',
-    format: 'Длительность - 3 месяца Формат - 5 раз в неделю',
+    duration: '3 месяца',
+    format: '5 раз в неделю',
+    time: '18:00 - 21:00'
   },
   {
     icon: `${iconPython}`,
     title: 'Python',
-    format: 'Длительность - 3 месяца Формат - 5 раз в неделю',
-  },
-  {
-    icon: `${icon3d}`,
-    title: '3D',
-    format: 'Длительность - 3 месяца Формат - 5 раз в неделю',
+    duration: '3 месяца',
+    format: '5 раз в неделю',
+    time: '18:00 - 21:00'
   },
   {
     icon: `${iconFrontend}`,
     title: 'Front - End',
-    format: 'Длительность - 3 месяца Формат - 5 раз в неделю',
+    duration: '3 месяца',
+    format: '5 раз в неделю',
+    time: '18:00 - 21:00'
   },
   {
     icon: `${iconJava}`,
     title: 'Java',
-    format: 'Длительность - 3 месяца Формат - 5 раз в неделю',
+    duration: '3 месяца',
+    format: '5 раз в неделю',
+    time: '18:00 - 21:00'
   },
 ];
