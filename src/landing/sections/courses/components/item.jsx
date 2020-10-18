@@ -7,9 +7,9 @@ function Item() {
   return (
     <React.Fragment>
       {coursesItem &&
-        coursesItem.map((item) => {
+        coursesItem.map((item, index) => {
           return (
-            <div className='courses__column col-3'>
+            <div className='courses__column col-3' key={index + item.img}>
               <div className='courses__item'>
                 <div className='courses__info'>
                   <img src={logo} alt='' className='courses__logo' />

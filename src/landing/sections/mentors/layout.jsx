@@ -15,9 +15,9 @@ function Layout({ item }) {
           </p>
         </div>
         <div className='mentors__row row'>
-          {item.map((items) => {
+          {item.map((items, index) => {
             return (
-              <div className='col-4 mentors__column'>
+              <div className='col-4 mentors__column' key={index + items.skills}>
                 <div className='mentors__item'>
                   <div className='row mentors__item-row'>
                     <div className='col-4 mentors__item-column'>
@@ -29,7 +29,7 @@ function Layout({ item }) {
                     </div>
                   </div>
                   <p className='mentors__story'>{items.description}</p>
-                 <div className="row">
+                  <div className='row'>
                     <button className='btn-buy'>
                       <img className='btn-buy__logo' src={logoSmall} alt='small logo' />
                       <span className='btn-buy__text'>Познакомиться</span>

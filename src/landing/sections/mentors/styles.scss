@@ -102,7 +102,7 @@
 		font-weight: 700;
 		font-style: normal;
 		font-size: vw(24);
-		color: $black;
+		color: $darkBlue;
 		@include mobile {
 			margin-top: vmin(15);
 			font-size: vmin(24);
@@ -114,7 +114,8 @@
 		font-weight: 400;
 		font-style: normal;
 		font-family: $segoeUI;
-		color: $gray;
+		color: $darkBlue;
+		opacity: 0.8;
 		@include mobile {
 			font-size: vmin(14);
 		}
@@ -123,17 +124,16 @@
 	&__story {
 		margin-top: vw(5);
 		margin-bottom: vw(30);
-		font-family: $poppins;
+		font-family: $notoSans;
 		font-size: vw(18);
 		font-weight: 500;
 		line-height: vw(24);
-		color: $black;
+		color: $darkBlue;
 		@include mobile {
 			margin-top: vmin(10);
 			margin-bottom: vmin(30);
 			font-size: vmin(18);
 			line-height: vmin(26);
-			color: #000;
 		}
 	}
 

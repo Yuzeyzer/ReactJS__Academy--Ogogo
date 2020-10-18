@@ -1,5 +1,11 @@
 .auth-btns {
 	display: flex;
+	svg {
+		width: vw(30);
+		@include mobile {
+			width: vmin(30);
+		}
+	}
 	&__log-in,
 	&__sign-up {
 		font-weight: 700;
@@ -10,5 +16,8 @@
 		span {
 			margin-left: vw(13);
 		}
+	}
+	@include mobile {
+		display: none;
 	}
 }

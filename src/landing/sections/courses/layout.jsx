@@ -2,7 +2,7 @@ import React from 'react';
 import Item from './components/item';
 function Layout() {
   return (
-    <section className='courses'>
+    <section className='courses' id='courses'>
       <div className='container'>
         <div className='courses__header'>
           <h3 className='courses__title'>Наши курсы</h3>

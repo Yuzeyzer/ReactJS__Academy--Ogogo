@@ -17,27 +17,3 @@
 		}
 	}
 }
-
-@-webkit-keyframes Fading {
-	from {
-		opacity: 0;
-		background-color: $darkBlue;
-		bottom: 0%;
-	}
-	to {
-		opacity: 1;
-		background-color: $white;
-	}
-}
-
-@keyframes Fading {
-	from {
-		opacity: 0;
-		background-color: $darkBlue;
-		bottom: 0%;
-	}
-	to {
-		opacity: 1;
-		background-color: $white;
-	}
-}

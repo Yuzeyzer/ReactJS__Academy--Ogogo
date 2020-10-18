@@ -9,9 +9,9 @@ function Nav() {
   };
   const navLinks = [
     { name: 'Главная', link: '/' },
-    { name: 'О нас', link: 'about' },
-    { name: 'Курсы', link: 'courses' },
-    { name: 'Контакты', link: 'contacts' },
+    { name: 'Наши направления', link: '/about' },
+    { name: 'Наши Курсы', link: '/courses' },
+    { name: 'Менторы', link: '/contacts' },
   ];
   return (
     <React.Fragment>
