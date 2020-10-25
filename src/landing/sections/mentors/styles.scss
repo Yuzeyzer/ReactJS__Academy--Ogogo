@@ -166,4 +166,8 @@
 	.btn-buy {
 		margin: auto;
 	}
+
+	@include mobile {
+		padding: vmin(50) 0;
+	}
 }
