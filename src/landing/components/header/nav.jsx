@@ -9,8 +9,7 @@ function Nav() {
   };
   const navLinks = [
     { name: 'Главная', link: '/' },
-    { name: 'Оффлайн курсы', link: '#offlineCourses' },
-    { name: 'Онлайн курсы', link: '#onlineCourses' },
+    { name: 'Курсы', link: '#offlineCourses' },
     { name: 'Менторы', link: '#mentors' },
   ];
   return (

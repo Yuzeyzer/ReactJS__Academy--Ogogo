@@ -12,7 +12,7 @@
 	}
 
 	&__title {
-		font-family: $poppins;
+		font-family: $rubik;
 		font-weight: 700;
 		font-size: vw(30);
 		color: $darkBlue;
@@ -24,7 +24,7 @@
 
 	&__description {
 		position: relative;
-		font-family: $poppins;
+		font-family: $rubik;
 		font-weight: 400;
 		font-size: vw(18);
 		color: $gray;
@@ -113,7 +113,7 @@
 		font-size: vw(16);
 		font-weight: 400;
 		font-style: normal;
-		font-family: $segoeUI;
+		font-family: $rubik;
 		color: $darkBlue;
 		opacity: 0.8;
 		@include mobile {
@@ -124,7 +124,7 @@
 	&__story {
 		margin-top: vw(5);
 		margin-bottom: vw(30);
-		font-family: $notoSans;
+		font-family: $rubik;
 		font-size: vw(18);
 		font-weight: 500;
 		line-height: vw(24);

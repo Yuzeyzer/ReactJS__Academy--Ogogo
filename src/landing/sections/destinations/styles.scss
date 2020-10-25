@@ -8,7 +8,7 @@
 	}
 	&__title {
 		position: relative;
-		font-family: $poppins;
+		font-family: $rubik;
 		font-size: vw(30);
 		color: $darkBlue;
 		margin-bottom: vw(24);
@@ -28,7 +28,7 @@
 			left: vw(-100);
 			top: 115%;
 			width: vw(200);
-			height: vw(3);
+			height: vw(4);
 			background-color: $lightBlue;
 		}
 	}
@@ -78,7 +78,7 @@
 	}
 	&-title {
 		margin: vw(10) 0;
-		font-family: $poppins;
+		font-family: $rubik;
 		font-weight: 700;
 		font-size: vw(20);
 		color: $darkBlue;
@@ -88,7 +88,7 @@
 		}
 	}
 	&-text {
-		font-family: $poppins;
+		font-family: $rubik;
 		font-weight: 400;
 		font-size: vw(16);
 		color: $darkBlue;
