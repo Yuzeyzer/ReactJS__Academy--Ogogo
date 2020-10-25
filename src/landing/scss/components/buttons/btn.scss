@@ -70,7 +70,34 @@
 		}
 	}
 }
-
+.btn-pink {
+	display: flex;
+	justify-content: center;
+	background-color: $pink;
+	border: vw(2) solid $pink;
+	transition: 0.3s;
+	color: $white;
+	width: vw(250);
+	white-space: nowrap;
+	text-align: center;
+	svg,
+	svg path {
+		transition: 0.3s;
+	}
+	&:hover {
+		background-color: $darkBlue;
+		color: $pink;
+		border: vw(2) solid $pink;
+		svg,
+		svg path {
+			fill: $lightBlue;
+		}
+	}
+	@include mobile {
+		width: vmin(250);
+		height: vmin(40);
+	}
+}
 .btn-buy {
 	display: flex;
 	align-items: center;
