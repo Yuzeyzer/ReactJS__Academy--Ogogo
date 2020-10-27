@@ -4,16 +4,20 @@
 	box-sizing: border-box;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 .container {
 	padding: 0 vw(120);
 	margin: auto;
 	@media screen and (max-width: 1024px) {
 		max-width: 100%;
-		padding: 0 vmin(23);
+		padding: 0 vmin(25);
 	}
 }
 body {
-	font-family: sans-serif;
+	font-family: $rubik;
 	font-size: vw(16);
 	background-color: $darkBlue;
 }

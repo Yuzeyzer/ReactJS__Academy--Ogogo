@@ -8,7 +8,7 @@
 	}
 	&__title {
 		position: relative;
-		font-family: $poppins;
+		font-family: $rubik;
 		font-size: vw(30);
 		color: $darkBlue;
 		margin-bottom: vw(24);
@@ -21,6 +21,15 @@
 			height: vw(5);
 			border-radius: 50%;
 			background-color: $lightBlue;
+			@include mobile {
+				left: vmin(-20);
+				width: vmin(6);
+				height: vmin(6);
+			}
+		}
+		@include mobile {
+			font-size: vmin(30);
+			margin-bottom: vmin(24);
 		}
 		&::after {
 			content: "";
@@ -28,13 +37,22 @@
 			left: vw(-100);
 			top: 115%;
 			width: vw(200);
-			height: vw(3);
+			height: vw(4);
 			background-color: $lightBlue;
+			@include mobile {
+				left: vmin(-20);
+				top: 115%;
+				width: vmin(150);
+				height: vmin(4);
+			}
 		}
 	}
 	&__description {
 		font-size: vw(20);
 		color: #7f83a2;
+		@include mobile {
+			font-size: vmin(20);
+		}
 	}
 	&__row {
 		margin: 0 vw(-23);
@@ -78,7 +96,7 @@
 	}
 	&-title {
 		margin: vw(10) 0;
-		font-family: $poppins;
+		font-family: $rubik;
 		font-weight: 700;
 		font-size: vw(20);
 		color: $darkBlue;
@@ -88,7 +106,7 @@
 		}
 	}
 	&-text {
-		font-family: $poppins;
+		font-family: $rubik;
 		font-weight: 400;
 		font-size: vw(16);
 		color: $darkBlue;

@@ -3,7 +3,7 @@ import Hero from './hero';
 import Destinations from './destinations';
 import Courses from './courses';
 import Mentors from './mentors';
-import { Header, Footer } from '../components';
+import { Header } from '../components';
 
 function Sections() {
   return (
@@ -15,7 +15,7 @@ function Sections() {
         <Courses />
         <Mentors />
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </React.Fragment>
   );
 }

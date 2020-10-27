@@ -4,10 +4,10 @@ import './styles.scss';
 
 const Destinations = () => {
   return (
-    <section className='destinations'>
+    <section className='destinations' id='offlineCourses'>
       <div className='container'>
         <div className='destinations__top'>
-          <h3 className='destinations__title'>Наши курсы</h3>
+          <h3 className='destinations__title'>Наши оффлайн - курсы</h3>
           <p className='destinations__description'>
             Интересные направления которые вы можете захотеть изучить
           </p>

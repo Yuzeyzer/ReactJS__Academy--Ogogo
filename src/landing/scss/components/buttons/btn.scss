@@ -1,7 +1,7 @@
 .btn {
 	min-height: vw(60);
-	font-family: $segoeUI;
-	font-size: vw(16);
+	font-family: $rubik;
+	font-size: vw(18);
 	font-weight: 600;
 	display: flex;
 	align-items: center;
@@ -15,9 +15,10 @@
 		font-weight: 600;
 		display: flex;
 		align-items: center;
-		padding: vmin(10) vmin(30);
+		padding: vmin(20) vmin(30);
 		border-radius: vmin(50);
 		text-align: center;
+		max-height: vmin(50);
 	}
 }
 .btn-circle {
@@ -70,7 +71,35 @@
 		}
 	}
 }
-
+.btn-pink {
+	display: flex;
+	justify-content: center;
+	background-color: $pink;
+	border: vw(2) solid $pink;
+	transition: 0.3s;
+	color: $white;
+	width: vw(250);
+	white-space: nowrap;
+	text-align: center;
+	svg,
+	svg path {
+		transition: 0.3s;
+	}
+	&:hover {
+		background-color: $darkBlue;
+		color: $pink;
+		border: vw(2) solid $pink;
+		svg,
+		svg path {
+			fill: $lightBlue;
+		}
+	}
+	@include mobile {
+		padding: vmin(20) vmin(30);
+		width: vmin(250);
+		height: vmin(40);
+	}
+}
 .btn-buy {
 	display: flex;
 	align-items: center;
@@ -93,7 +122,7 @@
 		}
 	}
 	&__text {
-		font-family: $segoeUI;
+		font-family: $rubik;
 		text-transform: uppercase;
 		font-weight: 700;
 		font-size: vw(16);

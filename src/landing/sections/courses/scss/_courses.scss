@@ -7,7 +7,7 @@
 		}
 	}
 	&__title {
-		font-family: $poppins;
+		font-family: $rubik;
 		font-weight: 700;
 		font-size: vw(30);
 		color: $white;
@@ -17,7 +17,7 @@
 	}
 	&__description {
 		position: relative;
-		font-family: $poppins;
+		font-family: $rubik;
 		font-weight: 400;
 		font-size: vw(18);
 		color: $gray;
@@ -47,6 +47,6 @@
 		}
 	}
 	@include mobile {
-		padding: vmin(25) 0;
+		padding: vmin(50) 0;
 	}
 }

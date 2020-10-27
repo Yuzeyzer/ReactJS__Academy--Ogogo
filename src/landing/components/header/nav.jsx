@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 function Nav() {
   const [activeLink, setActiveLink] = React.useState(0);
@@ -9,9 +9,8 @@ function Nav() {
   };
   const navLinks = [
     { name: 'Главная', link: '/' },
-    { name: 'Наши направления', link: '/about' },
-    { name: 'Наши Курсы', link: '/courses' },
-    { name: 'Менторы', link: '/contacts' },
+    { name: 'Курсы', link: '#offlineCourses' },
+    { name: 'Менторы', link: '#mentors' },
   ];
   return (
     <React.Fragment>
@@ -21,12 +20,12 @@ function Nav() {
             navLinks.map((item, index) => {
               return (
                 <li key={item.name} className='nav__items'>
-                  <Link
-                    to={item.link}
+                  <a
+                    href={item.link}
                     onClick={() => handleActiveLink(index)}
                     className={activeLink === index ? 'nav__links active' : 'nav__links '}>
                     {item.name}
-                  </Link>
+                  </a>
                 </li>
               );
             })}
