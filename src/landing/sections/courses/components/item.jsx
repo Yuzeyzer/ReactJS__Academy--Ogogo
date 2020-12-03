@@ -29,7 +29,7 @@ function Item() {
                     <img className='btn-buy__logo' src={logoSmall} alt='' />
                     <span className='btn-buy__text'>Приобрести</span>
                     <div className='cart'>
-                      <img src={cart} alt='' />
+                      <img src={cart} alt='cart' />
                     </div>
                   </button>
                 </div>

@@ -1,0 +1,164 @@
+.modal {
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100;
+	display: flex;
+	align-items: center;
+	background: rgba(0, 0, 0, 0.5);
+	height: 100vh;
+	width: 100%;
+	overflow: hidden;
+	&__form {
+		padding: vw(50) vw(120) vw(100);
+		display: flex;
+		flex-direction: column;
+		width: vw(800);
+		margin: 0 auto;
+		background-color: $white;
+		border-radius: vw(15);
+		@include mobile {
+			padding: vmin(50) vmin(30) vmin(50);
+			border-radius: vmin(15);
+			width: vmin(300);
+		}
+	}
+	&__logo {
+		display: block;
+		width: vw(110);
+		height: vw(110);
+		border-radius: 50%;
+		margin: auto;
+		&-wrapper {
+			max-width: vw(280);
+			margin: 0 auto vw(40);
+			@include mobile {
+				max-width: vmin(280);
+			}
+		}
+		@include mobile {
+			width: vmin(35);
+			height: vmin(35);
+		}
+	}
+	&__name {
+		margin-top: vw(5);
+		display: block;
+		font-family: $rubik;
+		font-weight: 700;
+		font-size: vw(30);
+		color: $lightBlue;
+		text-align: center;
+		@include mobile {
+			margin-top: vmin(5);
+			font-size: vmin(18);
+		}
+	}
+	&__label {
+		display: flex;
+		flex-direction: column;
+		@include mobile {
+			margin-top: vmin(15);
+		}
+	}
+	&__input {
+		margin-bottom: vw(40);
+		padding: vw(25) vw(35);
+		border: vw(2) solid $lightBlue;
+		border-radius: vw(50);
+		font-family: $roboto;
+		font-size: vw(18);
+		color: $lightBlue;
+		outline: none;
+		text-align: left;
+		width: 100%;
+		&::placeholder {
+			color: $lightBlue;
+			font-family: $roboto;
+			font-size: vw(18);
+			@include mobile {
+				font-size: vmin(16);
+			}
+		}
+		@include mobile {
+			padding: vmin(15) vmin(25);
+			border: vmin(2) solid $lightBlue;
+			border-radius: vmin(50);
+			font-size: vmin(16);
+		}
+	}
+
+	select {
+		appearance: none;
+	}
+
+	&__select {
+		position: relative;
+		&::before {
+			content: "";
+			position: absolute;
+			top: 30%;
+			right: vw(25);
+			background: url("../../assets/svg/arrow-select.svg") no-repeat center;
+			background-size: cover;
+			width: vw(20);
+			height: vw(10);
+			@include mobile {
+				top: vmin(20);
+				right: vmin(20);
+				width: vmin(20);
+				height: vmin(10);
+			}
+		}
+	}
+
+	&__form {
+		&-wrapper {
+			background: url("../../assets/png/bubbles.png") no-repeat;
+			background-size: cover;
+			padding: vw(105);
+			a {
+				display: block;
+				margin: auto;
+			}
+			@include mobile {
+				padding: vmin(50) vmin(20) vmin(105);
+			}
+		}
+		display: flex;
+		flex-direction: column;
+	}
+	.btn {
+		display: flex;
+		justify-content: center;
+		padding: vw(25) vw(35);
+		font-weight: 700;
+		font-family: $roboto;
+		font-size: vw(22);
+		letter-spacing: vw(2);
+		border: vw(2) solid transparent;
+		border-radius: vw(50);
+		color: $white;
+		outline: none;
+		background: $lightBlue;
+		text-transform: uppercase;
+		box-sizing: border-box;
+		cursor: pointer;
+		transition: 0.3s;
+		&:hover {
+			border: vw(2) solid $lightBlue;
+			color: $lightBlue;
+			background: #fff;
+		}
+		@include mobile {
+			margin-top: vmin(30);
+			margin-bottom: vmin(10);
+			padding: vmin(15) vmin(15);
+			font-weight: 700;
+			font-size: vmin(16);
+			letter-spacing: vmin(2);
+			border: vmin(2) solid transparent;
+			border-radius: vmin(50);
+		}
+	}
+}

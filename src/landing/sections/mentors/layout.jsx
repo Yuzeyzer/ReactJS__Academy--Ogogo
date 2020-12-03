@@ -1,6 +1,6 @@
 import React from 'react';
 import logoSmall from '../../assets/png/logo-small.png';
-import cart from '../../assets/svg/cart.svg';
+import telegram from '../../assets/svg/telegram.svg';
 
 function Layout({ item }) {
   return (
@@ -34,7 +34,7 @@ function Layout({ item }) {
                       <img className='btn-buy__logo' src={logoSmall} alt='small logo' />
                       <span className='btn-buy__text'>Познакомиться</span>
                       <div className='cart'>
-                        <img src={cart} alt='cart' />
+                        <img src={telegram} alt='cart' />
                       </div>
                     </button>
                   </div>

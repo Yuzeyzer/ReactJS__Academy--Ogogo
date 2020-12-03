@@ -1,6 +1,7 @@
 import React from 'react';
 
-function HeroContent() {
+function HeroContent({ activeClick }) {
+
   return (
     <div className='hero__content'>
       <h1 className='hero__title'>
@@ -10,11 +11,13 @@ function HeroContent() {
       </h1>
       <p className='hero__description'>
         Не откладывай на завтра то, что можно изучить сегодня Академия Ogogo запускает набор на
-        утренние группы по JavaScript и Python 
+        утренние группы по JavaScript и Python
       </p>
       <div className='hero__btns flex'>
         <button className='btn btn-dark-blue'>Подробнее</button>
-        <button className='btn btn-light-blue hero__btn'>Занять место</button>
+        <button onClick={activeClick} className='btn btn-light-blue hero__btn'>
+          Занять место
+        </button>
       </div>
     </div>
   );

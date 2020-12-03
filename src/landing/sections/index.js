@@ -4,13 +4,14 @@ import Destinations from './destinations';
 import Courses from './courses';
 import Mentors from './mentors';
 import { Header } from '../components';
+import Modal from '../components/modal';
 
 function Sections() {
   return (
     <React.Fragment>
       <Header />
       <main>
-        <Hero />
+        <Hero Modal={Modal} />
         <Destinations />
         <Courses />
         <Mentors />
